@@ -2,7 +2,7 @@
   <div>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Daouda BA</div>
+        <div class="leading-tight">Daouda BA 👨🏽‍💻</div>
         <div class="text-green-700 leading-tight">Fullstack web/mobile developer</div>
       </div>
       <div class="mt-8 sm:mt-0">
@@ -12,8 +12,9 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a fullstack web/mobile developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working as a web / mobile developer at <a href="https://lenil.tech/home" target="_blank">Lenil Tech</a>. <br>
-        I love to turn complex problems into simple, beautiful and intuitive designs. My job is to create your website so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way. <br> I am also the founder of <a href="#" target="_blank">Galsen Dev</a>, a Senegalese developer community 💡</p>
+        I am a fullstack web/mobile developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working as a web/mobile developer at <a href="https://lenil.tech/home" target="_blank">Lenil Tech</a>. <br>
+        With accomplished research and development skills, I possess certificates of various technologies on software development and have been working as a software developer for more than 4 years.
+        <br> I am also the founder of <a href="#" target="_blank">Galsen Dev</a>, a Senegalese developer community 💡</p>
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <img src="~assets/img/mind_map.svg" alt="browser" />
@@ -24,39 +25,9 @@
       </div>
     </div>
 
-    <div class="overflow-x-hidden">
-      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6" id="projects">Here are some projects I've worked on:</h2>
-
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
-          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
-
-        <ul class="text-lg sm:text-xl space-y-6">
-          <li class="checkmark">
-            <div>Project One</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark">
-            <div>Project Two</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark">
-            <div>Project Three</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark">
-            <div>Project Four</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-
-        </ul>
-      </div> <!-- end projects -->
-    </div>
-
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
+        <h2 class="font-bold mb-6">Get to know me 😎</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -64,12 +35,9 @@
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><img src="~assets/img/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">I love to turn complex problems into simple, beautiful and intuitive designs 🌟 My job is to create your website so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way 🎯</div>
         </div>
 
-        <div class="responsive-container">
-          <iframe class="responsive-iframe w-full h-full top-0 left-0 border-0" src="https://www.youtube.com/embed/uHo6o1TNQeE" style="border:0;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
       </div> <!-- end get-to-know me -->
     </div>
 
@@ -82,7 +50,7 @@
             <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
           </div>
 
-          <p class="mb-12">Static sites cannot submit forms on their own. However, services like <a href="https://www.netlify.com/docs/form-handling">Netlify Forms</a> or <a href="https://formspree.io">FormSpree</a> can help you do this without a backend.</p>
+          <p class="mb-12">If you want to talk about a project, my work, collaborate with me or something else, please do not hesitate to contact me I would be happy to discuss with you 🤗</p>
 
           <div class="text-lg sm:text-lg mb-16">
             <form action="#" class="mb-12">
@@ -92,7 +60,7 @@
                           Name
                       </label>
 
-                      <input type="text" name="name" id="name" placeholder="Jon Snow" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                      <input type="text" name="name" id="name" placeholder="Daouda BA" class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
                   </div>
 
                   <div class="w-full px-4 md:w-1/2">
@@ -126,7 +94,7 @@
         <h2 class="text-2xl font-bold mb-8">Join my Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, voluptatum. Quam, deleniti nulla.</p>
+          <p class="mb-8 text-lg sm:text-xl">Join my newsletter list to be up to date with my latest news.</p>
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">

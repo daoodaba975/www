@@ -22,20 +22,18 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
-            <a v-if="$route.path === '/'" href="/#projects" v-scroll-to="'#projects'" class="text-copy-primary hover:text-gray-600">Projects</a>
-            <nuxt-link v-else to="/#projects" v-scroll-to="'/#projects'" class="text-copy-primary hover:text-gray-600">Projects</nuxt-link>
+            <nuxt-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
+            <!-- <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link> -->
           </li>
           <li>
-            <a v-if="$route.path === '/'" href="/#about" v-scroll-to="'#about'" class="text-copy-primary hover:text-gray-600">About</a>
-            <nuxt-link v-else to="/#about" v-scroll-to="'/#about'" class="text-copy-primary hover:text-gray-600">About</nuxt-link>
+            <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">Projects</nuxt-link>
           </li>
+          <!--li>
+            <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">Career</nuxt-link>
+          </li-->
           <li>
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
             <nuxt-link v-else to="/#contact" v-scroll-to="'/#contact'" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
-          </li>
-          <li>
-            <nuxt-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
-            <!-- <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link> -->
           </li>
         </ul>
       </nav>
@@ -47,11 +45,11 @@
     <footer class="bg-green-700 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
-          <div>© Daooda. {{ new Date().getFullYear() }}. All rights reserved.</div>
+          <div>© Daooda. {{ new Date().getFullYear() }}. Createad with Nuxt.js💚, Gridsome⚡ & Tailwind💦. All rights reserved.</div>
         </div>
         <ul class="flex items-center space-x-8">
           <li>
-            <a href="mailto:me@example.com" class="text-white hover:text-gray-400">
+            <a href="mailto:daoodaba975@gmail.com" class="text-white hover:text-gray-400">
               <svg width="25" height="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0h20A2.5 2.5 0 0 1 25 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-20A2.5 2.5 0 0 1 0 17.5v-15C0 1.125 1.125 0 2.5 0zm20 4.225V2.5h-20v1.725l10 5 10-5zm0 2.8l-9.438 4.713a1.25 1.25 0 0 1-1.124 0L2.5 7.025V17.5h20V7.025z" fill-rule="nonzero"/></svg>
             </a>
           </li>
