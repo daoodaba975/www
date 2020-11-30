@@ -1,6 +1,6 @@
 <template>
   <div class="container-inner mx-auto py-16">
-    <div v-for="(post,index) in posts" :key="index" class="post border-gray-400 border-b mb-12">
+    <!-- div v-for="(post,index) in posts" :key="index" class="post border-gray-400 border-b mb-12">
       <h2 class="text-3xl font-bold"><nuxt-link :to="`/posts/${post.slug}`" class="text-copy-primary">{{ post.title }}</nuxt-link></h2>
       <div class="text-copy-secondary mb-4">
         <span>{{ formatDate(post.date) }}</span>
@@ -13,7 +13,7 @@
       <div class="mb-8">
         <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">Read More</nuxt-link>
       </div>
-    </div> <!-- end post -->
+    </div --> <!-- end post -->
 
     <div class="flex justify-between text-xl items-center">
       <a :href="previousPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showPreviousPage }">&larr; Prev</a>
