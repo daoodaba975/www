@@ -34,7 +34,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><img src="~assets/img/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><img src="~assets/img/daooda.jpeg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">I love to turn complex problems into simple, beautiful and intuitive designs 🌟 My job is to create your website so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way 🎯</div>
         </div>
 
@@ -53,7 +53,7 @@
           <p class="mb-12">If you want to talk about a project, my work, collaborate with me or something else, please do not hesitate to contact me I would be happy to discuss with you 🤗</p>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form action="#" class="mb-12">
+            <form action="https://formspree.io/f/xvovvoon" method="POST" class="mb-12">
               <div class="flex flex-wrap mb-6 -mx-4">
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
@@ -68,7 +68,7 @@
                           Email Address
                       </label>
 
-                      <input type="email" name="email" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
+                      <input type="email" name="_replyto" id="email" placeholder="email@example.com"  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4" required>
                   </div>
               </div>
 
