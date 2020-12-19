@@ -13,27 +13,27 @@
             
           <li class="checkmark">
             <div>Taarú</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
-            <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Visit website</a> </div>
+            <div class="text-lg text-gray-600">🚀 A nice theme with Senegalese beauty, for coding the world.<br>
+            <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Learn more</a> </div>
           </li>
           <li class="checkmark">
             <div>Xex Corona</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
+            <div class="text-lg text-gray-600">⚠ Web app for the eradication of the virus (Covid19) in Senegal<br>
             <a href="https://xexcorona.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
             <div>Pizzatech</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
+            <div class="text-lg text-gray-600">🍕 Website to Help restaurants benefit from the same technological advantages as Domino's Pizza or Pizza Hut without investing so much money and without wasting time.<br>
             <a href="https://pizzatech.paris/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
             <div>ALD Caténaire</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
+            <div class="text-lg text-gray-600">🚆 ALD Caténaire is a company based in France and Senegal which works in the Catenary sector.<br>
             <a href="https://ald-catenaire.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
             <div>Curriculum IRIS</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
+            <div class="text-lg text-gray-600">♻ IRIS Curriculum website, which offers Mentoring and Coaching sessions.<br>
             <a href="https://curriculumiris.com/" target="_blank">Visit website</a> </div>
           </li>
 
