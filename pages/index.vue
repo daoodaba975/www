@@ -12,13 +12,10 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a fullstack web/mobile developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working as a web/mobile developer at <a href="https://lenil.tech/home" target="_blank">Lenil Tech</a>. <br>
+        I am a fullstack web/mobile developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working as a web/mobile developer at <a href="https://lenil.tech/" target="_blank">Lenil Tech</a>. <br>
         With accomplished research and development skills, I possess certificates of various technologies on software development and have been working as a software developer for more than 4 years.
-        <br> I am also the founder of <a href="#" target="_blank">Galsen Dev</a>, a Senegalese developer community 💡</p>
+        <br> I am also the founder of <a href="https://galsendev.com/" target="_blank">Galsen Dev</a>, a Senegalese developer community 💡</p>
       <div class="flex justify-between items-center py-6">
-        <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <img src="~assets/img/mind_map.svg" alt="browser" />
-        </div>
         <div class="w-1/2 px-8 hidden sm:flex justify-end">
           <img src="~assets/img/code_review.svg" alt="mobile" />
         </div>
@@ -34,7 +31,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><img src="~assets/img/daooda.jpeg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><img src="~assets/img/daooda.png" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">I love to turn complex problems into simple, beautiful and intuitive designs 🌟 My job is to create your website so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way 🎯</div>
         </div>
 
