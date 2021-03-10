@@ -17,14 +17,19 @@
             <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Learn more</a> </div>
           </li>
           <li class="checkmark">
-            <div>Xex Corona</div>
-            <div class="text-lg text-gray-600">⚠ Web app for the eradication of the virus (Covid19) in Senegal<br>
-            <a href="https://xexcorona.com/" target="_blank">Visit website</a> </div>
+            <div>Made In Senegal</div>
+            <div class="text-lg text-gray-600">🇸🇳 A collection of tools built by Senegalese developers that can be used by anyone all over the world.<br>
+            <a href="https://madein.galsendev.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
-            <div>Pizzatech</div>
-            <div class="text-lg text-gray-600">🍕 Website to Help restaurants benefit from the same technological advantages as Domino's Pizza or Pizza Hut without investing so much money and without wasting time.<br>
-            <a href="https://pizzatech.paris/" target="_blank">Visit website</a> </div>
+            <div>Galsen Dev</div>
+            <div class="text-lg text-gray-600">👨🏽‍💻 The official website of Galsen Dev community.<br>
+            <a href="https://galsendev.com/" target="_blank">Visit website</a> </div>
+          </li>
+          <li class="checkmark">
+            <div>Xex Corona</div>
+            <div class="text-lg text-gray-600">⚠ Web app for the eradication of the virus (Covid19) in Senegal.<br>
+            <a href="https://xexcorona.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
             <div>ALD Caténaire</div>
