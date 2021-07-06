@@ -18,7 +18,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Developer web/mobile fullstack, Based in DAKAR, Senegal, West Africa, Africa, Galsen, Dev' },
+      { property: 'og:url', content: 'https://daoodaba.dev' },
+      { property: 'og:type', content: 'website' },
+      { name: 'theme-color', content: '#ffffff' },
+      { property: 'og:image', content: 'https://daoodaba.vercel.app/assets/social/share-1200x630.png' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
