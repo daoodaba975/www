@@ -12,7 +12,7 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a fullstack developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working as a web/mobile developer at <a href="https://lenil.tech/" target="_blank">Lenil Tech</a>. <br>
+        I am a fullstack developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working in Remote. <br>
         With accomplished research and development skills, I possess certificates of various technologies on software development and have been working as a software developer for more than 5 years.
         <br> I am also the founder of <a href="https://galsendev.com/" target="_blank">Galsen Dev</a>, the biggest developers community in Senegal 💡</p>
       <div class="flex justify-between items-center py-6">
