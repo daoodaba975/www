@@ -22,8 +22,7 @@ export default {
       { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Developer web/mobile fullstack, Based in DAKAR, Senegal, West Africa, Africa, Galsen, Dev' },
       { property: 'og:url', content: 'https://daoodaba.dev' },
       { property: 'og:type', content: 'website' },
-      { name: 'theme-color', content: '#ffffff' },
-      { property: 'og:image', content: 'https://daoodaba.vercel.app/assets/social/share-1200x630.png' }
+      { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
