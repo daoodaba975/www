@@ -3,8 +3,8 @@
     <header class="border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <nuxt-link v-if="theme === 'theme-light'" to="/"><h1 class="blink">DEV</h1></nuxt-link>
-          <nuxt-link v-else to="/"><h1 class="blink">DEV</h1></nuxt-link>
+          <nuxt-link v-if="theme === 'theme-light'" to="/"><h1 class="wave">DEV</h1></nuxt-link>
+          <nuxt-link v-else to="/"><h1 class="wave">DEV</h1></nuxt-link>
         </div>
         <div class="block lg:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600">
@@ -102,7 +102,7 @@ export default {
 </script>
 
 <style>
-.blink {
+.wave {
     font-size: 2em;
     text-transform: uppercase;
     background: linear-gradient(to right, #3150ff, #247ba0, #a5fecb);
@@ -120,4 +120,33 @@ export default {
         background-position: 200% center;
     }
 }
+
+/* .blink {
+    font-size: 2em;
+    font-weight: bold;
+    color: #247ba0;
+    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
+    0 0 20px rgba(38, 149, 255, 0.5),
+    0 0 40px #2695ff, 0 0 100px #2695ff,
+    0 0 200px #2695ff, 0 0 300px #2695ff,
+    0 0 500px #2695ff;
+    animation: blink 4s infinite alternate;
+}
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+    52% {
+        opacity: 0.8;
+    }
+    53% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0.2;
+    }
+    56% {
+        opacity: 1;
+    }
+} */
 </style>
