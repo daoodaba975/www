@@ -6,7 +6,7 @@
         <div class="text-green-700 leading-tight">Fullstack developer 👨🏽‍💻</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <img src="~assets/img/developer.svg" alt="hero" width="" height="" class="mx-auto sm:mx-0" />
+        <img src="~assets/img/developer.svg" alt="hero" width="285" height="154" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
