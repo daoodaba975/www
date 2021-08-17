@@ -85,8 +85,8 @@ export default {
       author: '@daoodaba975',
     },
     manifest: {
-      name: 'Daouda BA 👨🏽‍💻, Developer web/mobile fullstack, Based in DAKAR, Senegal',
-      short_name: 'Daouda BA 👨🏽‍💻',
+      name: 'Daouda BA 👨🏽‍💻',
+      short_name: 'DEV',
       lang: 'en',
     },
   },
