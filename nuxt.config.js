@@ -14,13 +14,13 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Daouda BA 👨🏽‍💻 | Developer fullstack',
+    title: 'Daouda BA 👨🏽‍💻 | Fullstack developer',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Developer web/mobile fullstack, Based in DAKAR, Senegal, West Africa, Africa, Galsen, Dev' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Developer fullstack, Based in DAKAR' },
+      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack developer, Based in DAKAR, Senegal, West Africa, Africa, Galsen, Dev' },
       { property: 'og:url', content: 'https://daoodaba.dev' },
       { property: 'og:type', content: 'website' },
       { name: 'theme-color', content: '#ffffff' }
@@ -81,7 +81,7 @@ export default {
 
   pwa: {
     meta: {
-      title: 'Daouda BA 👨🏽‍💻 | Developer fullstack',
+      title: 'Daouda BA 👨🏽‍💻 | Fullstack developer',
       author: '@daoodaba975',
     },
     manifest: {
