@@ -14,7 +14,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Daouda BA 👨🏽‍💻 | Developer web/mobile fullstack | Based in DAKAR',
+    title: 'Daouda BA 👨🏽‍💻 | Developer fullstack',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
@@ -26,8 +26,11 @@ export default {
       { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' }
     ]
   },
   /*
@@ -59,8 +62,9 @@ export default {
   modules: [
     '@nuxtjs/axios',
     '@nuxt/content',
-    ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
     '@nuxtjs/robots',
+    '@nuxtjs/pwa',
+    ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
   ],
 
   robots: [
@@ -73,6 +77,18 @@ export default {
       Disallow: '/admin',
     },
   ],
+
+  pwa: {
+    meta: {
+      title: 'Daouda BA 👨🏽‍💻 | Developer fullstack',
+      author: '@daoodaba975',
+    },
+    manifest: {
+      name: 'Daouda BA 👨🏽‍💻, Developer web/mobile fullstack, Based in DAKAR, Senegal',
+      short_name: 'Daouda BA 👨🏽‍💻',
+      lang: 'en',
+    },
+  },
 
   content: {
     markdown: {
