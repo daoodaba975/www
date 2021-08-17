@@ -1,18 +1,12 @@
 export default {
-  /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
+  
+  /* Nuxt rendering mode ** See https://nuxtjs.org/api/configuration-mode */
   mode: 'universal',
-  /*
-  ** Nuxt target
-  ** See https://nuxtjs.org/api/configuration-target
-  */
+
+  /* Nuxt target ** See https://nuxtjs.org/api/configuration-target */
   target: 'static',
-  /*
-  ** Headers of the page
-  ** See https://nuxtjs.org/api/configuration-head
-  */
+
+  /* Headers of the page ** See https://nuxtjs.org/api/configuration-head */
   head: {
     title: 'Daouda BA 👨🏽‍💻 | Fullstack developer',
     htmlAttrs: { lang: 'en' },
@@ -34,25 +28,19 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' }
     ]
   },
-  /*
-  ** Global CSS
-  */
+
+  /* Global CSS */
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  ** https://nuxtjs.org/guide/plugins
-  */
+
+  /* Plugins to load before mounting the App ** https://nuxtjs.org/guide/plugins */
   plugins: [
   ],
-  /*
-  ** Auto import components
-  ** See https://nuxtjs.org/api/configuration-components
-  */
+
+  /* Auto import components ** See https://nuxtjs.org/api/configuration-components */
   components: true,
-  /*
-  ** Nuxt.js dev-modules
-  */
+
+  /* Nuxt.js dev-modules */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     // '@nuxtjs/eslint-module',
@@ -99,15 +87,10 @@ export default {
     }
   },
 
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
+  /* Axios module configuration ** See https://axios.nuxtjs.org/options */
   axios: {},
-  /*
-  ** Build configuration
-  ** See https://nuxtjs.org/api/configuration-build/
-  */
-  build: {
-  },
+
+  /* Build configuration ** See https://nuxtjs.org/api/configuration-build/ */
+  build: {},
+
 }
