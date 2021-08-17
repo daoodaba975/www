@@ -6,7 +6,7 @@
         <div class="text-green-700 leading-tight">Fullstack developer 👨🏽‍💻</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <img src="~assets/img/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <img src="~assets/img/developer.svg" alt="hero" width="" height="" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 
@@ -14,7 +14,7 @@
       <p class="text-lg sm:text-xl">
         I am a fullstack developer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working in Remote. <br>
         With accomplished research and development skills, I possess certificates of various technologies on software development and have been working as a software developer for more than 5 years.
-        <br> I am also the founder of <a href="https://galsendev.com/" target="_blank">Galsen Dev</a>, the biggest developers community in Senegal 💡</p>
+        <br> I am also the founder of <a href="https://galsendev.com/" target="_blank" rel="noopener">Galsen Dev</a>, the biggest developers community in Senegal 💡</p>
       <div class="flex justify-between items-center py-6">
       </div>
     </div>
@@ -28,7 +28,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><img src="~assets/img/daooda.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><img src="~assets/img/daooda.jpg" width="32px" height="32px" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">I love to turn complex problems into simple, beautiful and intuitive designs 🌟 My job is to create a solution so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way 🎯</div>
         </div>
 
@@ -93,7 +93,7 @@
           <form action="#">
             <div class="flex flex-col sm:flex-row">
               <input type="email" name="email" placeholder="Your email address" class="flex-1 bg-background-form rounded sm:rounded-r-none px-4 py-4 leading-normal border border-border-color-primary sm:border-r-0 shadow outline-none focus:border-green-700 z-10" required>
-              <button data-element="submit" class="flex-2 w-40 uppercase bg-green-700 text-white rounded sm:rounded-l-none text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-4 sm:mt-0">
+              <button data-element="submit" class="flex-2 uppercase bg-green-700 text-white rounded sm:rounded-l-none text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-4 sm:mt-0">
                 <span>Subscribe</span>
               </button>
             </div>
