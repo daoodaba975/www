@@ -28,7 +28,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><img src="~assets/img/daooda.jpg" width="32px" height="32px" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><img src="~assets/img/daooda.webp" width="32px" height="32px" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">I love to turn complex problems into simple, beautiful and intuitive designs 🌟 My job is to create a solution so that it is functional and user-friendly but at the same time attractive. Plus, I add a personal touch to your product and make sure it is eye-catching and easy to use. My goal is to get your message and your identity across in the most creative way 🎯</div>
         </div>
 
