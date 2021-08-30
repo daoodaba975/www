@@ -12,34 +12,39 @@
         <ul class="text-lg sm:text-xl space-y-6">
             
           <li class="checkmark">
-            <div>Taarú</div>
-            <div class="text-lg text-gray-600">🚀 A nice theme with Senegalese beauty, for coding the world.<br>
+            <div>🚀 Taarú</div>
+            <div class="text-lg text-gray-600">A nice theme with Senegalese beauty, for coding the world.<br>
             <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Learn more</a> </div>
           </li>
           <li class="checkmark">
-            <div>Made In Senegal</div>
-            <div class="text-lg text-gray-600">🇸🇳 A collection of tools built by Senegalese developers that can be used by anyone all over the world.<br>
+            <div>🇸🇳 Made In Senegal</div>
+            <div class="text-lg text-gray-600">A collection of tools built by Senegalese developers that can be used by anyone all over the world.<br>
             <a href="https://madein.galsendev.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
-            <div>Galsen Dev</div>
-            <div class="text-lg text-gray-600">👨🏽‍💻 The official website of Galsen Dev community.<br>
+            <div>👨🏽‍💻 Galsen Dev</div>
+            <div class="text-lg text-gray-600">The official website of Galsen Dev community.<br>
             <a href="https://galsendev.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
-            <div>Xex Corona</div>
-            <div class="text-lg text-gray-600">⚠ Web app for the eradication of the virus (Covid19) in Senegal.<br>
-            <a href="https://xexcorona.com/" target="_blank">Visit website</a> </div>
+            <div>⚠ Xex Corona</div>
+            <div class="text-lg text-gray-600">Web app for the eradication of the virus (Covid19) in Senegal.<br>
+            <a href="https://github.com/DevOlutionLab/xex-corona-app" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
-            <div>ALD Caténaire</div>
-            <div class="text-lg text-gray-600">🚆 ALD Caténaire is a company based in France and Senegal which works in the Catenary sector.<br>
+            <div>🚆 ALD Caténaire</div>
+            <div class="text-lg text-gray-600">ALD Caténaire is a company based in France and Senegal which works in railway infrastructure.<br>
             <a href="https://ald-catenaire.com/" target="_blank">Visit website</a> </div>
           </li>
           <li class="checkmark">
-            <div>Curriculum IRIS</div>
-            <div class="text-lg text-gray-600">♻ IRIS Curriculum website, which offers Mentoring and Coaching sessions.<br>
-            <a href="https://curriculumiris.com/" target="_blank">Visit website</a> </div>
+            <div>📚 Exigence School</div>
+            <div class="text-lg text-gray-600">Requirement School is software developed to facilitate the automation of the education sector.<br>
+            <a href="https://exigenceschool.com" target="_blank">Visit website</a> </div>
+          </li>
+          <li class="checkmark">
+            <div>🎨 Omana</div>
+            <div class="text-lg text-gray-600">Omana is a platform to promote made in Senegal, while supporting artisans to sell their products.<br>
+            <a href="https://omana.sn" target="_blank">Visit website</a> </div>
           </li>
 
         </ul>
