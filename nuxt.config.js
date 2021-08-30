@@ -15,7 +15,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Developer fullstack' },
       { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack developer, Based in DAKAR, Senegal' },
-      { property: 'og:url', content: 'https://daoodaba.dev' },
+      { property: 'og:url', content: 'https://daooda.dev' },
       { property: 'og:type', content: 'website' },
       { name: 'theme-color', content: '#ffffff' }
     ],

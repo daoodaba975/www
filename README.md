@@ -4,7 +4,7 @@
 
 ## Preview 🌐
 
-You can visit it **[HERE](https://daoodaba.dev/)**
+You can visit it **[HERE](https://daooda.dev/)**
 
 ### License 🎫
 
