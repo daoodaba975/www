@@ -1,7 +1,7 @@
 export default {
   
   /* Nuxt rendering mode ** See https://nuxtjs.org/api/configuration-mode */
-  mode: 'universal',
+  ssr: false,
 
   /* Nuxt target ** See https://nuxtjs.org/api/configuration-target */
   target: 'static',
@@ -93,6 +93,14 @@ export default {
   axios: {},
 
   /* Build configuration ** See https://nuxtjs.org/api/configuration-build/ */
-  build: {},
+  build: {
+    babel:{
+      plugins: [
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        ["@babel/plugin-proposal-private-methods", { "loose": true }],
+        ["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+      ]
+    }  
+  },
 
 }
