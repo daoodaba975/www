@@ -3,22 +3,46 @@
 
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
-        <h2 class="font-bold mb-6">Here are some projects I've worked on:</h2>
-
+        
+        <h2 class="font-bold mb-6 underline">I had the opportunity to work with different structures throughout my career, here is a brief summary of my background: </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
-
-        <ul class="text-lg sm:text-xl space-y-6">
-            
-          <li class="checkmark">
-            <div>Taarú</div>
-            <div class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque! <br>
-            <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Visit website</a> </div>
+        <ul class="text-lg sm:text-xl space-y-6">            
+          <li class="code">
+            <div>Developer web & Mobile (actually)</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.norma.dev/" target="_blank">Norma</a> (Remote, full time) since September 2021 – Dakar, Senegal</div>
           </li>
-          
+          <li class="code">
+            <div>Developer Web</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://turingconsulting.fr/" target="_blank">Turing Consulting France</a> (Remote, full time) August 2020 – September 2021 – Dakar, Senegal</div>
+          </li>
+          <li class="code">
+            <div>Developer Front-end</div>
+            <div class="text-lg text-gray-600">@ <span class="underline" href="#">Baobab TS</span> (Traineeship) October 2018 – February 2019 – Dakar, Senegal</div>
+          </li>
+          <li class="code">
+            <div>Developer Web & Mobile (not available)</div>
+            <div class="text-lg text-gray-600">Freelance, May 2018 – September 2021 – Guediawaye, Dakar, Senegal</div>
+          </li>
         </ul>
-      </div> <!-- end projects -->
+
+        <h2 class="font-bold mb-6 mt-12 underline">My training course as a developer was a very good experience to train me, here it is: </h2>
+        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
+          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
+        </div>
+        <ul class="text-lg sm:text-xl space-y-6">            
+          <li class="graduation">
+            <div>Web & Mobile development</div>
+            <div class="text-lg text-gray-600">Professional Certificate of Specialization in Web & Mobile Development @ <a class="underline" href="https://www.groupeisi.com/" target="_blank">Sonatel Academy (ODC)</a> (2019 – 2020) Dakar, Senegal</div>
+          </li>
+          <li class="graduation">
+            <div>Software Engineering</div>
+            <div class="text-lg text-gray-600">License @ <a class="underline" href="https://www.academysonatel.com/" target="_blank">Institut Supérieur de l'Informatique (ISI)</a> (2016 – 2019) Dakar, Senegal</div>
+          </li>
+        </ul>
+
+      </div>
     </div>
 
   </div>

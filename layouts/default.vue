@@ -13,24 +13,19 @@
         </div>
         <ul
           class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
-          :class="isOpen ? 'block': 'hidden'"
-        >
-          <li class="mb-6 lg:mb-0">
-            <!-- <search-input /> -->
-          </li>
+          :class="isOpen ? 'block': 'hidden'">
           <li>
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
             <nuxt-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
-            <!-- <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link> -->
           </li>
           <li>
             <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">Projects</nuxt-link>
           </li>
-          <!--li>
+          <li>
             <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">Career</nuxt-link>
-          </li-->
+          </li>
           <li>
             <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
             <nuxt-link v-else to="/#contact" v-scroll-to="'/#contact'" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
