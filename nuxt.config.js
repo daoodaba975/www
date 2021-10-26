@@ -13,7 +13,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Developer fullstack' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Full-Stack Software Engineer' },
       { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Full-Stack Software Engineer, Based in DAKAR, Senegal' },
       { property: 'og:url', content: 'https://daooda.dev' },
       { property: 'og:type', content: 'website' },
