@@ -115,33 +115,4 @@ export default {
         background-position: 200% center;
     }
 }
-
-/* .blink {
-    font-size: 2em;
-    font-weight: bold;
-    color: #247ba0;
-    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
-    0 0 20px rgba(38, 149, 255, 0.5),
-    0 0 40px #2695ff, 0 0 100px #2695ff,
-    0 0 200px #2695ff, 0 0 300px #2695ff,
-    0 0 500px #2695ff;
-    animation: blink 4s infinite alternate;
-}
-@keyframes blink {
-    50% {
-        opacity: 1;
-    }
-    52% {
-        opacity: 0.8;
-    }
-    53% {
-        opacity: 1;
-    }
-    55% {
-        opacity: 0.2;
-    }
-    56% {
-        opacity: 1;
-    }
-} */
 </style>
