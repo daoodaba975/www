@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="overflow-x-hidden">
-      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
+      <div class="projects container-inner mx-auto text-xl py-16 mb-16 relative">
         
         <h2 class="font-bold mb-6 underline">Here are some projects I've worked on for client: </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
@@ -62,7 +62,7 @@
           </li>
         </ul>
 
-      </div> <!-- end projects -->
+      </div>
     </div>
   </div>
 </template>

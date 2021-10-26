@@ -2,7 +2,7 @@
   <div>
 
     <div class="overflow-x-hidden">
-      <div class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative">
+      <div class="projects container-inner mx-auto text-xl py-16 mb-16 relative">
         
         <h2 class="font-bold mb-6 underline">I had the opportunity to work with different structures throughout my career, here is a brief summary of my background: </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
