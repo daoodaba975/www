@@ -8,13 +8,13 @@ export default {
 
   /* Headers of the page ** See https://nuxtjs.org/api/configuration-head */
   head: {
-    title: 'Daouda BA 👨🏽‍💻 | Fullstack developer',
+    title: 'Daouda BA 👨🏽‍💻 | Full-Stack Software Engineer',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Developer fullstack' },
-      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack developer, Based in DAKAR, Senegal' },
+      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Full-Stack Software Engineer, Based in DAKAR, Senegal' },
       { property: 'og:url', content: 'https://daooda.dev' },
       { property: 'og:type', content: 'website' },
       { name: 'theme-color', content: '#ffffff' }
@@ -27,7 +27,8 @@ export default {
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap' }
     ]
   },
 
@@ -71,7 +72,7 @@ export default {
 
   pwa: {
     meta: {
-      title: 'Daouda BA 👨🏽‍💻 | Fullstack developer',
+      title: 'Daouda BA 👨🏽‍💻 | Full-Stack Software Engineer',
       author: '@daoodaba975',
     },
     manifest: {

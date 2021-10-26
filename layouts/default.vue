@@ -27,8 +27,11 @@
             <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">Career</nuxt-link>
           </li>
           <li>
-            <a v-if="$route.path === '/'" href="/#contact" v-scroll-to="'#contact'" class="text-copy-primary hover:text-gray-600">Contact</a>
-            <nuxt-link v-else to="/#contact" v-scroll-to="'/#contact'" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
+            <nuxt-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/" class="text-copy-primary hover:text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></nuxt-link>
           </li>
         </ul>
       </nav>
@@ -115,33 +118,4 @@ export default {
         background-position: 200% center;
     }
 }
-
-/* .blink {
-    font-size: 2em;
-    font-weight: bold;
-    color: #247ba0;
-    text-shadow: 0 0 0 transparent, 0 0 10px #2695ff,
-    0 0 20px rgba(38, 149, 255, 0.5),
-    0 0 40px #2695ff, 0 0 100px #2695ff,
-    0 0 200px #2695ff, 0 0 300px #2695ff,
-    0 0 500px #2695ff;
-    animation: blink 4s infinite alternate;
-}
-@keyframes blink {
-    50% {
-        opacity: 1;
-    }
-    52% {
-        opacity: 0.8;
-    }
-    53% {
-        opacity: 1;
-    }
-    55% {
-        opacity: 0.2;
-    }
-    56% {
-        opacity: 1;
-    }
-} */
 </style>
