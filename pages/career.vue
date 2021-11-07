@@ -34,11 +34,11 @@
         <ul class="text-lg sm:text-xl space-y-6">            
           <li class="graduation">
             <div>Web & Mobile development</div>
-            <div class="text-lg text-gray-600">Professional Certificate of Specialization in Web & Mobile Development @ <a class="underline" href="https://www.groupeisi.com/" target="_blank">Sonatel Academy (ODC)</a> (2019 – 2020) Dakar, Senegal</div>
+            <div class="text-lg text-gray-600">Professional Certificate of Specialization in Web & Mobile Development @ <a class="underline" href="https://www.academysonatel.com/" target="_blank">Sonatel Academy (ODC)</a> (2019 – 2020) Dakar, Senegal</div>
           </li>
           <li class="graduation">
             <div>Software Engineering</div>
-            <div class="text-lg text-gray-600">License @ <a class="underline" href="https://www.academysonatel.com/" target="_blank">Institut Supérieur de l'Informatique (ISI)</a> (2016 – 2019) Dakar, Senegal</div>
+            <div class="text-lg text-gray-600">License @ <a class="underline" href="https://www.groupeisi.com/" target="_blank">Institut Supérieur de l'Informatique (ISI)</a> (2016 – 2019) Dakar, Senegal</div>
           </li>
         </ul>
 
