@@ -8,13 +8,13 @@ export default {
 
   /* Headers of the page ** See https://nuxtjs.org/api/configuration-head */
   head: {
-    title: 'Daouda BA 👨🏽‍💻 | Full-Stack Software Engineer',
+    title: 'Daouda BA 👨🏽‍💻 | Fullstack Software Engineer',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Full-Stack Software Engineer' },
-      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Full-Stack Software Engineer, Based in DAKAR, Senegal' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Fullstack Software Engineer' },
+      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack Software Engineer, Based in DAKAR, Senegal' },
       { property: 'og:url', content: 'https://daooda.dev' },
       { property: 'og:type', content: 'website' },
       { name: 'theme-color', content: '#ffffff' }
@@ -72,7 +72,7 @@ export default {
 
   pwa: {
     meta: {
-      title: 'Daouda BA 👨🏽‍💻 | Full-Stack Software Engineer',
+      title: 'Daouda BA 👨🏽‍💻 | Fullstack Software Engineer',
       author: '@daoodaba975',
     },
     manifest: {
