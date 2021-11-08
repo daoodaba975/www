@@ -1,9 +1,9 @@
 ---
-title: Understanding Jamstack
-path: /understanding-jamstack
+title: 5 good reasons to use Nuxt.js
+path: /five-good-reasons-to-use-nuxt-js
 date: 2021-11-16
 summary: Gridsome is a Vue.js-powered, modern site generator for building the fastest possible websites for any Headless CMS, APIs or Markdown-files. Gridsome makes it easy and fun for developers to create fast, beautiful websites without needing to become a performance expert.
-tags: ['frontend', 'coding', 'vue']
+tags: ['frontend', 'nuxt', 'vue', 'js']
 ---
 
 ![background](/blog_bg_1.jpg)
