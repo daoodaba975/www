@@ -10,7 +10,7 @@
         </div>
         <ul class="text-lg sm:text-xl space-y-6">            
           <li class="code">
-            <div>Developer web & Mobile (actually)</div>
+            <div>Fullstack Software Engineer (actually)</div>
             <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.norma.dev/" target="_blank">Norma</a> (Remote, full time) since September 2021 – Dakar, Senegal</div>
           </li>
           <li class="code">
@@ -18,7 +18,7 @@
             <div class="text-lg text-gray-600">@ <a class="underline" href="https://turingconsulting.fr/" target="_blank">Turing Consulting France</a> (Remote, full time) August 2020 – September 2021 – Dakar, Senegal</div>
           </li>
           <li class="code">
-            <div>Developer Front-end</div>
+            <div>Developer Frontend</div>
             <div class="text-lg text-gray-600">@ <span class="underline" href="#">Baobab TS</span> (Traineeship) October 2018 – February 2019 – Dakar, Senegal</div>
           </li>
           <li class="code">
@@ -27,7 +27,7 @@
           </li>
         </ul>
 
-        <h2 class="font-bold mb-6 mt-12 underline">My training course as a developer was a very good experience, here it is:</h2>
+        <h2 class="font-bold mb-6 mt-12 underline">My training as a developer was a key step for the rest of my career, here it is:</h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
