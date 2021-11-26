@@ -15,11 +15,11 @@
       </div>
     </div >
 
-    <div class="flex justify-between text-xl items-center">
+    <!-- <div class="flex justify-between text-xl items-center">
       <a :href="previousPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showPreviousPage }">&larr; Prev</a>
       <div class="text-base">Page {{ currentPage }} of {{ totalPages }}</div>
       <a :href="nextPage" :class="{ 'text-gray-400 hover:text-gray-400 cursor-not-allowed': !showNextPage }">Next &rarr;</a>
-    </div>
+    </div> -->
   </div>
 </template>
 
