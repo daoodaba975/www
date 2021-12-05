@@ -2,7 +2,6 @@ export default {
   
   /* Nuxt rendering mode ** See https://nuxtjs.org/api/configuration-mode */
   ssr: false,
-
   /* Nuxt target ** See https://nuxtjs.org/api/configuration-target */
   target: 'static',
 
@@ -35,7 +34,6 @@ export default {
   /* Global CSS */
   css: [
   ],
-
   /* Plugins to load before mounting the App ** https://nuxtjs.org/guide/plugins */
   plugins: [
   ],

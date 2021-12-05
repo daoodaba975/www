@@ -6,7 +6,7 @@ summary: Nuxt.js is a free and open source JavaScript framework based on Vue and
 tags: ['frontend', 'nuxt', 'vue', 'js']
 ---
 
-![background](/blog/post1/blog_post.png)
+![background](/blog/post1/blog_post.webp)
 
 [*Nuxt.js*](https://nuxtjs.org/) is a free and open source JavaScript framework based on Vue and Node JS.  
 It allows a simplification, an optimization and also an acceleration of the development of applications. Nuxt simplifies the development of universal or single page Vue apps.

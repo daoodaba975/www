@@ -13,9 +13,9 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a Fullstack Software Engineer based in Guédiawaye (Dakar, SENEGAL) working in the field of web and mobile development. <br> I am currently working in Remote. <br>
-        With accomplished research and development skills, I possess certificates of various technologies on software development and have been working as a software developer for more than 5 years.
-        <br> I am also the founder of <a href="https://galsendev.com/" target="_blank" rel="noopener">Galsen Dev</a>, the biggest developers community in Senegal 💡</p>
+        I am a Fullstack Software Engineer based at DAKAR, Senegal working in the field of web and mobile development. <br>
+        Currently working in full-time remote, with more than 5 years of experience. I am also the founder of <a href="https://galsendev.com/" target="_blank" rel="noopener">Galsen Dev</a>, the biggest developers community in Senegal 💡
+      </p>
       <div class="flex justify-between items-center py-6">
       </div>
     </div>
@@ -34,7 +34,7 @@
     </div>
 
     <div class="container-inner mx-auto mb-12">
-      <h1 class="font-bold text-3xl mb-6 underline">My last post:</h1>
+      <h1 class="font-bold text-3xl mb-6 underline">Last post:</h1>
       <div v-for="(post,index) in posts" :key="index" class="post border-gray-400 border-b mb-12">
         <h2 class="text-2xl font-bold"><nuxt-link :to="`/posts/${post.slug}`" class="text-copy-primary">{{ post.title }}</nuxt-link></h2>
         <div class="text-copy-secondary mb-4">
