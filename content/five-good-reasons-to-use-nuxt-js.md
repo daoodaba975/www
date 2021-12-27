@@ -1,7 +1,7 @@
 ---
 title: 5 good reasons to use Nuxt.js
 path: /five-good-reasons-to-use-nuxt-js
-date: 2021-12-18
+date: 2022-01-18
 summary: Nuxt.js is a free and open source JavaScript framework based on Vue and Node JS. It allows a simplification, an optimization and also an acceleration of the development of applications. Nuxt simplifies the development of universal or single page Vue apps.
 tags: ['frontend', 'nuxt', 'vue', 'js']
 ---
