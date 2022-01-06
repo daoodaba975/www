@@ -10,8 +10,8 @@
         </div>
         <ul class="text-lg sm:text-xl space-y-6">            
           <li class="code">
-            <div>Fullstack Software Engineer (actually)</div>
-            <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.norma.dev/" target="_blank">Norma</a> (Remote, full time) since September 2021 – Dakar, Senegal</div>
+            <div>Fullstack Developer</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.norma.dev/" target="_blank">Norma</a> (Remote, full time) September 2021 – January 2022 – Dakar, Senegal</div>
           </li>
           <li class="code">
             <div>Developer Web</div>
