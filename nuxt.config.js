@@ -7,13 +7,13 @@ export default {
 
   /* Headers of the page ** See https://nuxtjs.org/api/configuration-head */
   head: {
-    title: 'Daouda BA 👨🏽‍💻 | Fullstack Software Engineer',
+    title: 'Daouda BA 👨🏽‍💻 | Fullstack Developer',
     htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Fullstack Software Engineer' },
-      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack Software Engineer, Based in DAKAR, Senegal' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Daouda BA 👨🏽‍💻, Fullstack Developer' },
+      { property: 'og:description', content: 'Daouda BA 👨🏽‍💻, Fullstack Developer, Based in DAKAR, Senegal' },
       { property: 'og:url', content: 'https://daooda.dev' },
       { property: 'og:type', content: 'website' },
       { name: 'theme-color', content: '#ffffff' }
@@ -70,17 +70,17 @@ export default {
   ],
 
   googleAnalytics: {
-    id: '258705476', // Use as fallback if no runtime config is provided
+    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
   },
   publicRuntimeConfig: {
     googleAnalytics: {
-      id: '258705476'
+      id: process.env.GOOGLE_ANALYTICS_ID
     }
   },
 
   pwa: {
     meta: {
-      title: 'Daouda BA 👨🏽‍💻 | Fullstack Software Engineer',
+      title: 'Daouda BA 👨🏽‍💻 | Fullstack Developer',
       author: '@daoodaba975',
     },
     manifest: {
