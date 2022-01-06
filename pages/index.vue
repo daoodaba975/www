@@ -4,7 +4,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Daouda BA 👨🏽‍💻</div>
-        <div class="text-green-700 leading-tight">Fullstack Software Engineer</div>
+        <div class="text-green-700 leading-tight">Fullstack Developer</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="~assets/img/developer.svg" alt="hero" width="285" height="154" class="mx-auto sm:mx-0" />
@@ -13,8 +13,8 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a Fullstack Software Engineer based at DAKAR, Senegal working in the field of web and mobile development. <br>
-        Currently working in full-time remote, with more than 5 years of experience. I am also the founder of <a href="https://galsendev.com/" target="_blank" rel="noopener">Galsen Dev</a>, the biggest developers community in Senegal 💡
+        I am a Fullstack Developer based at DAKAR, Senegal working in the field of web and mobile development. <br>
+        Currently working in full-time remote, with more than 5 years of experience. I am also the founder of <a href="https://galsendev.com/" target="_blank" rel="noopener">Galsen DEV</a>, the biggest developers community in Senegal 💡
       </p>
       <div class="flex justify-between items-center py-6">
       </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><img src="~assets/img/daooda.webp" width="32px" height="32px" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">I enjoy simplifying complex problems into beautiful, intuitive designs 🌟 My job is to design a solution that is both functional and user-friendly while also being visually appealing. <br> In addition, I give your product a personal touch and ensure that it is captivating and simple to use. My goal is to convey your message and identity in the most imaginative way possible 🎯</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">I enjoy simplifying complex problems into beautiful, intuitive designs 🌟 My job is to design a solution that is both functional and user-friendly while also being visually appealing. <br> My goal is to convey your message and identity in the most imaginative way possible 🎯</div>
         </div>
       </div>
     </div>
