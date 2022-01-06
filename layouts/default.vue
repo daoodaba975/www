@@ -24,9 +24,6 @@
             <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">Projects</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">Career</nuxt-link>
-          </li>
-          <li>
             <nuxt-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
           </li>
           <li>
