@@ -1,4 +1,4 @@
-# Daooda-BA 🐱‍👤
+# Daooda BA 🐱‍👤
 
 👨🏽‍💻 My personal website, created with Nuxt.js, Gridsome & Tailwind CSS 💚⚡️💦
 
