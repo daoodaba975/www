@@ -1,7 +1,7 @@
 ---
-title: Create a Nuxt.js / Firebase auth app
-path: /create-a-nuxt-firebase-auth-app
-date: 2022-01-18
+title: Template post
+path: /template-post
+date: 2022-01-08
 summary: Nuxt.js is a free and open source JavaScript framework based on Vue and Node JS. It allows a simplification, an optimization and also an acceleration of the development of applications. Nuxt simplifies the development of universal or single page Vue apps.
 tags: ['frontend', 'nuxt', 'vue', 'js']
 ---

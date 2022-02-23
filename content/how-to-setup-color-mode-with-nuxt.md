@@ -1,12 +1,12 @@
 ---
-title: How to Get Better At Coding
-path: /how-to-get-better-at-coding
-date: 2019-04-05
-summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rerum earum quos explicabo suscipit maxime iste qui nihil. Reiciendis asperiores minus necessitatibus
-tags: ['coding', 'frontend', 'backend']
+title: How to setup color mode with Nuxt.js
+path: /setup-color-mode-with-nuxt
+date: 2022-02-26
+summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
+tags: ['frontend', 'nuxt', 'vue', 'color-mode']
 ---
 
-![background](/blog_bg_2.jpg)
+![background](/blog/post2/blog_post.webp)
 
 Lorem ipsum dolor sit amet, [consectetur adipisicing](https://google.ca) elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
 
@@ -102,6 +102,13 @@ class Foo extends bar
 }
 ```
 
-## Random Image
+### <span style="color: #247ba0; text-decoration: underline;"> 1. *Create universal apps easily* 🌍 </span>
 
-![mojave](/mojave-night.jpg)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
+
+#### <span style="color: #247ba0"> ⌛ *Conclusion* </span>
+
+You will probably have noticed my website was made with Nuxt and it is thanks to all these advantages that I have Nuxt one of my favorite tools to develop powerful applications.  
+But despite all these good reasons, Nuxt also has some cons that will cause some to favor other technos.
+
+Happy coding 🙌
