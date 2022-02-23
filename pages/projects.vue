@@ -16,11 +16,16 @@
           <li class="github">
             <div>🪐 Taarú</div>
             <div class="text-lg text-gray-600">A collection of pretty dark VS Code theme with Senegalese beauty.<br>
-            <a href="https://github.com/daoodaba975/taaru" target="_blank">Learn more</a> </div>
+            <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Learn more</a> </div>
+          </li>
+          <li class="github">
+            <div>🚀 Exlogrn</div>
+            <div class="text-lg text-gray-600">A simple React Native Expo Login template starter app.<br>
+            <a href="https://github.com/daoodaba975/exlogrn" target="_blank">Learn more</a> </div>
           </li>
           <li class="github">
             <div>🛠 Basics Frontend components collections</div>
-            <div class="text-lg text-gray-600">This is a large collections of some basics frontend components crafted with HTML, CSS & JavaScript only, ready to be used.<br>
+            <div class="text-lg text-gray-600">This is a large collections of some basics frontend components crafted with HTML, CSS & JavaScript only and ready to be used.<br>
             <a href="https://github.com/daoodaba975/basics-frontend-components-collections" target="_blank">Learn more</a> </div>
           </li>
           <li class="github">
@@ -67,5 +72,4 @@ export default {}
 </script>
 
 <style>
-
 </style>

@@ -75,22 +75,6 @@ export default {
   computed: {
     totalPages() {
       return Math.ceil(this.allPosts.length / this.pagination)
-    },
-    showPreviousPage() {
-      return this.currentPage !== 1
-    },
-    previousPage() {
-      return [0, 1].includes(this.currentPage - 1)
-        ? this.base
-        : `${this.base}?page=${this.currentPage - 1}`;
-    },
-    showNextPage() {
-      return this.currentPage !== this.totalPages
-    },
-    nextPage(currentPage, totalPages) {
-      return this.totalPages > this.currentPage
-        ? `${this.base}?page=${this.currentPage + 1}`
-        : `${this.base}?page=${this.currentPage}`;
     }
   },
   methods: {
