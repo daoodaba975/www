@@ -4,7 +4,7 @@
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl py-16 mb-16 relative">
         
-        <h2 class="font-bold mb-6 underline">I had the opportunity to work with different structures, here is a brief summary:</h2>
+        <h2 class="font-bold mb-6 underline">I had the opportunity to work with different structures, here is a brief summary : </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
@@ -27,7 +27,7 @@
           </li>
         </ul>
 
-        <h2 class="font-bold mb-6 mt-12 underline">My training as a developer was a key step for the rest of my career, here it is:</h2>
+        <h2 class="font-bold mb-6 mt-12 underline">My training as a developer was a key step for the rest of my career, here it is : </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>

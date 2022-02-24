@@ -1,7 +1,7 @@
 <template>
 
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-14 border-green-700">
+    <header class="border-t-8 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
           <nuxt-link v-if="theme === 'theme-light'" to="/"><h1 class="wave">DEV</h1></nuxt-link>
@@ -41,6 +41,7 @@
     <div class="flex-grow">
       <Nuxt/>
     </div>
+    
     <footer class="bg-green-700 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
