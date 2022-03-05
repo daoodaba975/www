@@ -3,7 +3,7 @@
     <div class="overflow-x-hidden">
       <div class="projects container-inner mx-auto text-xl py-16 mb-16 relative">
 
-        <h2 class="font-bold mb-6 underline">Some open-source projects I've worked on:</h2>
+        <h2 class="font-bold mb-6 underline">Some open-source projects I've worked on : </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
@@ -11,16 +11,21 @@
           <li class="github">
             <div>🌟 Made In Senegal</div>
             <div class="text-lg text-gray-600">A collection of tools built by Senegalese developers that can be used by anyone all over the world.<br>
-            <a href="https://www.madeinsenegal.dev" target="_blank">Visit website</a> </div>
+            <a href="https://www.madeinsenegal.dev" target="_blank">Learn more</a> </div>
           </li>
           <li class="github">
             <div>🪐 Taarú</div>
             <div class="text-lg text-gray-600">A collection of pretty dark VS Code theme with Senegalese beauty.<br>
-            <a href="https://github.com/daoodaba975/taaru" target="_blank">Learn more</a> </div>
+            <a href="https://marketplace.visualstudio.com/items?itemName=daoodaba975.taaru" target="_blank">Learn more</a> </div>
+          </li>
+          <li class="github">
+            <div>🚀 Exlogrn</div>
+            <div class="text-lg text-gray-600">A simple React Native Expo Login template starter app.<br>
+            <a href="https://github.com/daoodaba975/exlogrn" target="_blank">Learn more</a> </div>
           </li>
           <li class="github">
             <div>🛠 Basics Frontend components collections</div>
-            <div class="text-lg text-gray-600">This is a large collections of some basics frontend components crafted with HTML, CSS & JavaScript only, ready to be used.<br>
+            <div class="text-lg text-gray-600">This is a large collections of some basics frontend components crafted with HTML, CSS & JavaScript only and ready to be used.<br>
             <a href="https://github.com/daoodaba975/basics-frontend-components-collections" target="_blank">Learn more</a> </div>
           </li>
           <li class="github">
@@ -40,7 +45,7 @@
           </li>
         </ul>
 
-        <h2 class="font-bold mb-6 mt-12 underline">Here are some projects I've worked on for clients:</h2>
+        <h2 class="font-bold mb-6 mt-12 underline">Here are some projects I've worked on for clients : </h2>
         <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
@@ -67,5 +72,4 @@ export default {}
 </script>
 
 <style>
-
 </style>
