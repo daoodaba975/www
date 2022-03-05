@@ -1,7 +1,7 @@
 ---
 title: How to setup color mode with Nuxt.js
 path: /setup-color-mode-with-nuxt
-date: 2022-02-26
+date: 2022-03-11
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
 tags: ['frontend', 'nuxt', 'vue', 'color-mode']
 ---
