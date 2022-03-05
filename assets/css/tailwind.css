@@ -67,13 +67,11 @@ nav .nuxt-link-exact-active {
     max-width: 640px;
   }
 }
-
 @media (min-width: 768px) {
   .container-inner {
     max-width: 768px;
   }
 }
-
 @media (min-width: 1024px) {
   .container-inner {
     max-width: 800px;
@@ -85,19 +83,16 @@ nav .nuxt-link-exact-active {
   background-repeat: no-repeat;
   @apply pl-10;
 }
-
 .github {
   background-image: url("../img/icons/github.svg");
   background-repeat: no-repeat;
   @apply pl-10;
 }
-
 .info {
   background-image: url("../img/icons/info.svg");
   background-repeat: no-repeat;
   @apply pl-10;
 }
-
 .bookmark {
   background-image: url("../img/icons/bookmark.svg");
   background-repeat: no-repeat;
@@ -109,7 +104,6 @@ nav .nuxt-link-exact-active {
   background-repeat: no-repeat;
   @apply pl-10;
 }
-
 .graduation {
   background-image: url("../img/icons/graduation.svg");
   background-repeat: no-repeat;
@@ -121,7 +115,6 @@ nav .nuxt-link-exact-active {
   overflow: hidden;
   padding-top: 56.25%;
 }
-
 .responsive-iframe {
   position: absolute;
   top: 0;
