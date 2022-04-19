@@ -3,7 +3,7 @@ title: My top 5 VS Code extensions
 path: /my-top-5-vs-code-extensions
 date: 2022-04-23
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium inventore hic possimus, cum nesciunt ea debitis, tempora officia perferendis vero ratione nam laudantium aliquid voluptatem velit? Open `/src/layouts.vue` and then edit the `main.css` file.
-tags: ['frontend', 'nuxt', 'vue', 'color-mode']
+tags: ['vs-code', 'dev', 'extensions', 'config']
 ---
 
 ![background](/blog/post2/blog_post.webp)
