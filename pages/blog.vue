@@ -1,7 +1,7 @@
 <template>
   <div class="container-inner mx-auto py-16">
     <div v-for="(post,index) in posts" :key="index" class="post border-gray-400 border-b mb-12">
-      <h2 class="text-3xl font-bold"><nuxt-link :to="`/posts/${post.slug}`" class="text-copy-primary">{{ post.title }}</nuxt-link></h2>
+      <h2 class="text-3xl font-bold"><nuxt-link :to="`/posts/${post.slug}`" class="text-green-700">{{ post.title }}</nuxt-link></h2>
       <div class="text-copy-secondary mb-4">
         <span>{{ formatDate(post.date) }}</span>
       </div>
