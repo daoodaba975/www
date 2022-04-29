@@ -46,14 +46,14 @@ export default {
     // '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics'
   ],
 
   modules: [
+    '@nuxtjs/pwa',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
-    '@nuxtjs/pwa',
+    '@nuxtjs/google-analytics',
     ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
   ],
 
