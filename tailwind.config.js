@@ -1,6 +1,5 @@
 /*
 ** TailwindCSS Configuration File
-**
 ** Docs: https://tailwindcss.com/docs/configuration
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
@@ -52,7 +51,6 @@ module.exports = {
         800: '#247ba0',
         900: '#247ba0',
       },
-
       gray: {
         100: '#f7fafc',
         200: '#edf2f7',
@@ -81,7 +79,13 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+      serif: [
+        'Georgia',
+        'Cambria',
+        '"Times New Roman"',
+        'Times',
+        'serif'
+      ],
       mono: [
         'Menlo',
         'Monaco',
