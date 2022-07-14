@@ -1,8 +1,8 @@
 <template>
 
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
-    <header class="border-t-8 bg-background-primary border-green-700 mt-0 fixed w-full z-10 pin-t bg-opacity-50 backdrop-filter backdrop-blur-lg">
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
+    <header class="border-t-8 bg-background-primary border-green-700 mt-0 fixed w-full z-10 pin-t mask-custom">
+      <nav class="container mx-auto flex flex-wrap justify-between items-center py-3">
         <div>
           <nuxt-link v-if="theme === 'theme-light'" to="/"><h1 class="wave">DEV</h1></nuxt-link>
           <nuxt-link v-else to="/"><h1 class="wave">DEV</h1></nuxt-link>
@@ -99,5 +99,10 @@ export default {
     to {
         background-position: 200% center;
     }
+}
+
+.mask-custom {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, .10);
 }
 </style>
