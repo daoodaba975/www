@@ -51,12 +51,32 @@ export default {
 
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/i18n',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
     '@nuxtjs/google-analytics',
     ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
   ],
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [{
+      code: 'en',
+      iso: 'en-US',
+      file: 'en-US.json'
+    },
+    {
+      code: 'fr',
+      iso: 'fr-FR',
+      file: 'fr-FR.json'
+    }
+    ],
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'fr'
+    } 
+  },
 
   robots: [
     {
