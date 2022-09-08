@@ -4,7 +4,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Daouda BA 👨🏽‍💻</div>
-        <div class="text-green-700 leading-tight">Fullstack Developer</div>
+        <div class="text-green-700 leading-tight">{{ $t('developer') }}</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <img src="~assets/img/unDraw/programming.svg" alt="hero" width="285" height="154" class="mx-auto sm:mx-0" />
@@ -13,8 +13,8 @@
 
     <div class="container-inner mx-auto">
       <p class="text-lg sm:text-xl">
-        I am a Fullstack Developer based at DAKAR, Senegal working in the field of web and mobile development. <br>
-        Currently working in full-time remote, with more than +5 years of experience. I am also the founder of <a href="https://galsen.dev" target="_blank" rel="noopener">Galsen DEV</a>, the biggest developers community in Senegal 💡
+        {{ $t('me') }} <br>
+        {{ $t('exp') }} <a href="https://galsen.dev" target="_blank" rel="noopener">Galsen DEV</a>, {{ $t('exp-end') }}
       </p>
       <div class="flex justify-between items-center py-6">
       </div>
@@ -22,13 +22,13 @@
 
     <div class="overflow-x-hidden">
       <div class="container-inner mx-auto relative">
-        <h2 class="font-bold text-3xl mb-6 underline">😎 Get to know me : </h2>
+        <h2 class="font-bold text-3xl mb-6 underline">😎 {{ $t('know') }} : </h2>
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
         </div>
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><img src="~assets/img/me/daooda.webp" width="32px" height="32px" alt="DaoudaBA" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-4">I enjoy simplifying complex problems into beautiful, intuitive designs 🌟 My job is to design a solution that is both functional and user-friendly while also being visually appealing.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-4">{{ $t('known') }}</div>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
     <Skills/>
 
     <div class="container-inner mx-auto mb-12">
-      <h1 class="font-bold text-3xl mb-6 underline">📜 Last post : </h1>
+      <h1 class="font-bold text-3xl mb-6 underline">📜 {{ $t('last') }} : </h1>
       <div v-for="(post,index) in posts" :key="index" class="post border-gray-400 border-b mb-12">
         <h2 class="text-2xl font-bold"><nuxt-link :to="`/posts/${post.slug}`" class="text-green-700">{{ post.title }}</nuxt-link></h2>
         <div class="text-copy-secondary mb-4">
@@ -48,13 +48,13 @@
         </div>
 
         <div class="mb-8">
-          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">Read More</nuxt-link>
+          <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">{{ $t('read') }}</nuxt-link>
         </div>
       </div>
 
       <div class="flex justify-between text-xl items-center">
         <div>
-          <nuxt-link to="/blog" class="font-bold uppercase">Go to Blog ▶️</nuxt-link>
+          <nuxt-link to="/blog" class="font-bold uppercase">{{ $t('go') }} ▶️</nuxt-link>
         </div>
       </div>
     </div>

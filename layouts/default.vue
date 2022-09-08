@@ -16,16 +16,19 @@
           class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'">
           <li>
+            <LanguageSwitcher />
+          </li>
+          <li>
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
             <nuxt-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">Career</nuxt-link>
+            <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">{{ $t('career') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">Projects</nuxt-link>
+            <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">{{ $t('projects') }}</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
@@ -54,12 +57,14 @@
 <script>
 import ThemeSwitcher from '~/components/ThemeSwitcher.vue'
 import Footer from '../components/Footer.vue'
+import LanguageSwitcher from '../components/LanguageSwitcher.vue'
 
 
 export default {
   components: {
     ThemeSwitcher,
-    Footer
+    Footer,
+    LanguageSwitcher
 },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'
