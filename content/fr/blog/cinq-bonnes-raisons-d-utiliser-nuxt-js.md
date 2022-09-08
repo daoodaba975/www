@@ -14,47 +14,48 @@ Il permet une simplification, une optimisation mais aussi une accélération du 
 Je l'aime pour sa flexibilité et son architecture ultra modulaire.  
 Si vous n'êtes pas encore convaincu par cette technologie, voici 5 bonnes raisons d'utiliser Nuxt.js pour votre prochain projet :
 
-### <span style="color: #247ba0; text-decoration: underline;"> 1. *Create universal apps easily* 🌍 </span>
+### <span style="color: #247ba0; text-decoration: underline;"> 1. *Créez facilement des applications universelles* 🌍 </span>
 
-Building universal applications can be tedious because you have to do a lot of configuration server side and client side.  
-The framework came with the advantage of developing high performance universal applications with the particularity of being able to execute its code on both the server side and client side.  
-Nuxt is self-configured and ready to use. With editable default configurations, they allow you to start a project with a base without having to worry about additional settings to be made.  
-With all of these benefits, creating a universal app with Nuxt just got so easy.
+Construire des applications universelles peut être fastidieux parce qu'il faut faire beaucoup de configuration côté serveur et côté client.  
+Le framework présentait l'avantage de développer des applications universelles performantes avec la particularité de pouvoir exécuter son code aussi bien côté serveur que côté client.  
+Nuxt est auto-configuré et prêt à l'emploi. Avec des configurations par défaut éditables, elles permettent de démarrer un projet avec une base sans avoir à se soucier des réglages supplémentaires à effectuer.  
+Avec tous ces avantages, créer une application universelle avec Nuxt est devenu si simple.
 
-### <span style="color: #247ba0; text-decoration: underline;"> 2. *Quickness* ⚡ </span>
+### <span style="color: #247ba0; text-decoration: underline;"> 2. *Rapidité* ⚡ </span>
 
-The advantage of rendering on the server side and on the client side makes it possible to have a powerful and very responsive application. Nuxt also allows us to have a wide range of [modules](https://modules.nuxtjs.org/) available created by the community that allow us to have high performance applications in speed.
+L'avantage du rendu côté serveur et côté client permet d'avoir une application performante et très réactive. Nuxt nous permet également de disposer d'une large gamme de [modules](https://modules.nuxtjs.org/) créés par la communauté qui nous permettent d'avoir des applications performantes.
 
-But like everything, you should not overdo it in the risk of impacting the performance of your applications.
+Mais comme toute chose, il ne faut pas en faire trop au risque d'impacter les performances de vos applications.
 
-### <span style="color: #247ba0; text-decoration: underline;"> 3. *File System Routing* 🚧 </span>
+### <span style="color: #247ba0; text-decoration: underline;"> 3. *Système de routage des fichiers* 🚧 </span>
 
-The System File Routing with Nuxt is just magic.
-When you create a `.vue` file in your `pages` directory, you have basic routing that works without additional configuration, it automatically generates the vue-router configuration.
-With `<NuxtLink>` the navigation is easy to do, it works like the `<a>` tag in `HTML`.
+Le système de routage des fichiers avec Nuxt est tout simplement magique.
+Lorsque vous créez un fichier `.vue` dans votre répertoire de `pages`, vous disposez d'un routage de base qui fonctionne sans configuration supplémentaire, il génère automatiquement la configuration `vue-router`. Avec `<NuxtLink>` la navigation est facile à faire, elle fonctionne comme la balise `<a>` en HTML.
 
-With Nuxt managing the rooting system is your last worry.
+Avec Nuxt, la gestion du système de routage est votre dernier souci.
 
-### <span style="color: #247ba0; text-decoration: underline;"> 4. *SEO-friendly* 💯 </span>
+### <span style="color: #247ba0; text-decoration: underline;"> 4. *Optimisé pour le référencement* 💯 </span>
 
-When a SPA is loaded on the browser, the server sends only basic `HTML` without any rendered content.  
-This practice causes that when the search engine bots crawl your page, they only get that bare `HTML` code with no content whatsoever. There is no data that bots can use to index your page.
+Lorsqu'un SPA est chargé sur le navigateur, le serveur envoie uniquement du code `HTML` de base sans aucun contenu rendu.  
+Cette pratique fait que lorsque les robots des moteurs de recherche explorent votre page, ils n'obtiennent que ce code `HTML` nu sans aucun contenu. Il n'y a pas de données que les bots peuvent utiliser pour indexer votre page.
 
-But on the other hand Nuxt is perfect for a project wanting to have excellent SEO.
-With Nuxt, you can control many factors that impact SEO and page ranking.  
-Unlike other SPAs, Nuxt fills in the gaps and makes the process of creating an SEO friendly app easy and enjoyable.
+Alors que Nuxt est parfait pour un projet voulant avoir un excellent référencement.
+Avec Nuxt, vous pouvez contrôler de nombreux facteurs qui ont un impact sur le référencement et le classement des pages.  
+Contrairement à d'autres SPA, Nuxt comble les lacunes et rend le processus de création d'une application conviviale pour le référencement facile.
 
-### <span style="color: #247ba0; text-decoration: underline;"> 5. *Great community support* 👥 </span>
+### <span style="color: #247ba0; text-decoration: underline;"> 5. *Une forte communauté* 👥 </span>
 
-One important thing when choosing a technology is the community support behind it, because you always need a community to grow together.
+Une chose importante lorsque je choisi une technologie est le soutien de la communauté derrière, car vous aurez toujours besoin d'une communauté pour grandir et avancer ensemble.
 
-With Nuxt you won't be lost.
+Avec Nuxt, vous ne serez pas perdu.
 
-The documentation on the official [site](https://nuxtjs.org/docs/get-started/installation) is one of the best I have encountered, everything is clear. In addition to that there is a wide variety of [modules](https://modules.nuxtjs.org/) available which will facilitate the development of your application & the community is almost everywhere but especially on [Discord](https://discord.com/invite/ps2h6QT) ready to step in and help you solve problems.
+La documentation sur le [site](https://nuxtjs.org/docs/get-started/installation) officiel est l'une des meilleures que j'ai rencontrées, tout est clair. En plus de cela, il existe une grande variété de [modules](https://modules.nuxtjs.org/) disponibles qui faciliteront le développement de votre application et la communauté est presque partout, mais surtout sur [Discord](https://discord.com/invite/ps2h6QT), prête à intervenir et à vous aider à résoudre les problèmes.
 
 #### <span style="color: #247ba0"> ⌛ *Conclusion* </span>
 
-You will probably have noticed my website was made with Nuxt and it is thanks to all these advantages that I have Nuxt one of my favorite tools to develop powerful applications.  
-But despite all these good reasons, Nuxt also has some cons that will cause some to favor other technos.
+Vous aurez sans doute remarqué que mon site web a été réalisé avec Nuxt et c'est grâce à tous ces avantages que je viens citer que Nuxt est l'un de mes outils favoris pour développer des applications puissantes.  
+Malgré toutes ces bonnes raisons, Nuxt a aussi quelques inconvénients qui pousseront certains à privilégier d'autres technologies.
 
-Happy coding 🙌
+Mais prenez le temps de tester ce magnifique framework 🙌🏽
+
+Happy coding 👨🏽‍💻
