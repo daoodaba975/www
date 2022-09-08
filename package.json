@@ -16,7 +16,7 @@
     "@nuxtjs/i18n": "^7.2.3",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/robots": "^2.5.0",
-    "caniuse-lite": "^1.0.30001366",
+    "caniuse-lite": "^1.0.30001376",
     "date-fns": "^2.15.0",
     "nuxt": "^2.14.0",
     "prism-themes": "^1.4.0",
