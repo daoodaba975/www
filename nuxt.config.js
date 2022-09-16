@@ -55,7 +55,6 @@ export default {
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
-    '@nuxtjs/google-analytics',
     ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
   ],
 
@@ -88,15 +87,6 @@ export default {
       Disallow: '/admin',
     },
   ],
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  },
 
   pwa: {
     meta: {
