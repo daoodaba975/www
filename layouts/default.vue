@@ -4,8 +4,8 @@
     <header class="border-t-8 bg-background-primary border-green-700 mt-0 fixed w-full z-10 pin-t mask-custom">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-3">
         <div>
-          <nuxt-link v-if="theme === 'theme-light'" to="/"><h1 class="wave">DEV</h1></nuxt-link>
-          <nuxt-link v-else to="/"><h1 class="wave">DEV</h1></nuxt-link>
+          <nuxt-link v-if="theme === 'theme-light'" :to="localePath('/')"><h1 class="wave">DEV</h1></nuxt-link>
+          <nuxt-link v-else :to="localePath('/')"><h1 class="wave">DEV</h1></nuxt-link>
         </div>
         <div class="block lg:hidden">
           <button @click="toggle" class="flex items-center px-3 py-2 border rounded border-gray-500 hover:text-gray-600 hover:border-gray-600" aria-label="MobileMenu">
@@ -22,19 +22,19 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
-            <nuxt-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
+            <nuxt-link :to="localePath('/blog')" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/career" class="text-copy-primary hover:text-gray-600">{{ $t('career') }}</nuxt-link>
+            <nuxt-link :to="localePath('/career')" class="text-copy-primary hover:text-gray-600">{{ $t('career') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/projects" class="text-copy-primary hover:text-gray-600">{{ $t('projects') }}</nuxt-link>
+            <nuxt-link :to="localePath('/projects')" class="text-copy-primary hover:text-gray-600">{{ $t('projects') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/contact" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
+            <nuxt-link :to="localePath('/contact')" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/" class="text-copy-primary hover:text-gray-600">
+            <nuxt-link :to="localePath('/')" class="text-copy-primary hover:text-gray-600">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></nuxt-link>
           </li>
         </ul>

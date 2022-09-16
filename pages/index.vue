@@ -54,7 +54,7 @@
 
       <div class="flex justify-between text-xl items-center">
         <div>
-          <nuxt-link to="/blog" class="font-bold uppercase">{{ $t('go') }} ▶️</nuxt-link>
+          <nuxt-link :to="localePath('/blog')" class="font-bold uppercase">{{ $t('go') }} ▶️</nuxt-link>
         </div>
       </div>
     </div>
