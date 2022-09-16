@@ -1,10 +1,10 @@
 # Daooda BA 🐱‍👤
 
-👨🏽‍💻 My personal website, created with Nuxt.js, Gridsome & Tailwind CSS 💚⚡️💦
+👨🏽‍💻 My personal website, created with Nuxt JS, Gridsome & Tailwind CSS 💚⚡️💦
 
 ## Preview 🌐
 
-You can visit it **[HERE](https://daooda.dev/)**
+You can visit it 👉🏽 **[HERE](https://daooda.dev/)**
 
 ### License 🎫
 
