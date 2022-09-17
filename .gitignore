@@ -93,3 +93,6 @@ sw.*
 
 # Makefile configuration
 makefile
+
+# package.json lockfile
+package-lock.json

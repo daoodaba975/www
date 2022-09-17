@@ -2,7 +2,7 @@
     <footer class="bg-green-700 text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
-          <div>© Daooda. {{ new Date().getFullYear() }}. All rights reserved. 💚+🌊</div>
+          <div>© Daooda. {{ new Date().getFullYear() }}. {{ $t('right') }} 💚+🌊</div>
         </div>
         <ul class="flex items-center space-x-8">
           <li>
@@ -14,3 +14,6 @@
       </div>
     </footer>
 </template>
+
+<script>
+</script>

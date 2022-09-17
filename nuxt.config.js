@@ -1,11 +1,8 @@
 export default {
   
-  /* Nuxt rendering mode ** See https://nuxtjs.org/api/configuration-mode */
   ssr: false,
-  /* Nuxt target ** See https://nuxtjs.org/api/configuration-target */
   target: 'static',
 
-  /* Headers of the page ** See https://nuxtjs.org/api/configuration-head */
   head: {
     title: 'Daouda BA 👨🏽‍💻 | Fullstack Developer',
     htmlAttrs: { lang: 'en' },
@@ -27,36 +24,56 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' }
+    ],
+    script: [
+      {
+      "data-host": "https://microanalytics.io",
+      "data-dnt": false,
+      src: "https://microanalytics.io/js/script.js",
+      id: process.env.MICROANALYTICS_ANALYTICS_ID,
+      async: true,
+      defer: true
+      },
     ]
   },
 
-  /* Global CSS */
-  css: [
-  ],
-  /* Plugins to load before mounting the App ** https://nuxtjs.org/guide/plugins */
-  plugins: [
-  ],
+  css: [],
+  plugins: [],
 
-  /* Auto import components ** See https://nuxtjs.org/api/configuration-components */
   components: true,
 
-  /* Nuxt.js dev-modules */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     // '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/web-vitals', 
   ],
 
   modules: [
     '@nuxtjs/pwa',
+    '@nuxtjs/i18n',
     '@nuxtjs/axios',
     '@nuxt/content',
     '@nuxtjs/robots',
-    '@nuxtjs/google-analytics',
     ['vue-scrollto/nuxt', { duration: 500, easing: 'ease' }],
   ],
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [{
+      code: 'en',
+      iso: 'en-US',
+      file: 'en-US.json'
+    },
+    {
+      code: 'fr',
+      iso: 'fr-FR',
+      file: 'fr-FR.json'
+    }
+    ],
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'en'
+    } 
+  },
 
   robots: [
     {
@@ -68,15 +85,6 @@ export default {
       Disallow: '/admin',
     },
   ],
-
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-  },
-  publicRuntimeConfig: {
-    googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
-    }
-  },
 
   pwa: {
     meta: {
@@ -98,10 +106,8 @@ export default {
     }
   },
 
-  /* Axios module configuration ** See https://axios.nuxtjs.org/options */
   axios: {},
 
-  /* Build configuration ** See https://nuxtjs.org/api/configuration-build/ */
   build: {
     babel:{
       plugins: [

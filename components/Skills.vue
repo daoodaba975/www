@@ -1,7 +1,7 @@
 <template>
   <div class="m-6 container-inner mx-auto mb-12">
     <div class="font-semibold">
-      <h2 class="font-bold text-3xl mb-6 underline">🎒 Tech stack I use : </h2>
+      <h2 class="font-bold text-3xl mb-6 underline">🎒 {{ $t('stack') }} : </h2>
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
@@ -30,3 +30,6 @@
 
   </div>
 </template>
+
+<script>
+</script>
