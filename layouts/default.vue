@@ -13,7 +13,7 @@
           </button>
         </div>
         <ul
-          class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
+          class="tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'">
           <li>
             <LanguageSwitcher />
@@ -22,7 +22,7 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li>
-            <nuxt-link :to="localePath('/blog')" class="text-copy-primary hover:text-gray-600">Blog</nuxt-link>
+            <nuxt-link :to="localePath('/blog')" class="text-copy-primary hover:text-gray-600">/blog</nuxt-link>
           </li>
           <li>
             <nuxt-link :to="localePath('/career')" class="text-copy-primary hover:text-gray-600">{{ $t('career') }}</nuxt-link>
@@ -31,7 +31,7 @@
             <nuxt-link :to="localePath('/projects')" class="text-copy-primary hover:text-gray-600">{{ $t('projects') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('/contact')" class="text-copy-primary hover:text-gray-600">Contact</nuxt-link>
+            <nuxt-link :to="localePath('/contact')" class="text-copy-primary hover:text-gray-600">/contact</nuxt-link>
           </li>
           <li>
             <nuxt-link :to="localePath('/')" class="text-copy-primary hover:text-gray-600">
