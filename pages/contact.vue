@@ -4,10 +4,10 @@
 
     <div class="newsletter bg-background-secondary">
       <div class="container-inner mx-auto py-16 pb-8 text-center textl-xl">
-        <h2 class="text-2xl font-bold mb-8">Think we can make great things together ?</h2>
+        <h2 class="text-2xl font-bold mb-8">{{ $t('together') }}</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-l"><a class="flex-2 uppercase bg-green-700 text-white rounded text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-4 sm:mt-0 underline hover:text-gray-400" href="mailto:daoodaba975@gmail.com">Let's get in touch!</a></p>
+          <p class="mb-8 text-lg sm:text-l"><a class="flex-2 uppercase bg-green-700 text-white rounded text-lg py-3 px-8 tracking-wide shadow focus:outline-none hover:bg-green-800 focus:bg-green-800 z-10 w-full sm:w-auto mt-4 sm:mt-0 underline hover:text-gray-400" href="mailto:daoodaba975@gmail.com">{{ $t('okay') }}</a></p>
 
             <ul class="mt-12 flex justify-center space-x-10">
               <li>

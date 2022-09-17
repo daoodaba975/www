@@ -5,7 +5,7 @@
       <div>{{ dateFormatted }}</div>
 
       <nuxt-content :document="postInMarkdown" />
-      <nuxt-link to="/blog" class="font-bold uppercase">Back to Blog</nuxt-link>
+      <nuxt-link :to="localePath('/blog')" class="font-bold uppercase">Back to Blog</nuxt-link>
 
     </div>
   </div>

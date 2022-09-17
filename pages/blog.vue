@@ -11,7 +11,7 @@
       </div>
 
       <div class="mb-8">
-        <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">Read More</nuxt-link>
+        <nuxt-link :to="`/posts/${post.slug}`" class="font-bold uppercase">{{ $t('read') }}</nuxt-link>
       </div>
     </div >
 
