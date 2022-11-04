@@ -10,12 +10,20 @@
         </div>
         <ul class="text-lg sm:text-xl space-y-6">            
           <li class="code">
+            <div>{{ $t('work6') }}</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://turingconsulting.fr/" target="_blank">Turing Consulting Group</a> {{ $t('work6d') }}</div>
+          </li>
+          <li class="code">
+            <div>{{ $t('work5') }}</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.xarala.co/" target="_blank">Xarala</a> {{ $t('work5d') }}</div>
+          </li>
+          <li class="code">
             <div>{{ $t('work4') }}</div>
             <div class="text-lg text-gray-600">@ <a class="underline" href="https://www.norma.dev/" target="_blank">Norma</a> {{ $t('work4d') }}</div>
           </li>
           <li class="code">
             <div>{{ $t('work3') }}</div>
-            <div class="text-lg text-gray-600">@ <a class="underline" href="https://turingconsulting.fr/" target="_blank">Turing Consulting France</a> {{ $t('work3d') }}</div>
+            <div class="text-lg text-gray-600">@ <a class="underline" href="https://turingconsulting.fr/" target="_blank">Turing Consulting Group</a> {{ $t('work3d') }}</div>
           </li>
           <li class="code">
             <div>{{ $t('work2') }}</div>
