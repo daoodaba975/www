@@ -8,8 +8,8 @@
       <IconJavaScript class="m-2 md:m-4"/>
       <IconTypeScript class="m-2 md:m-4"/>
       <IconPhp class="m-2 md:m-4"/>
-      <IconDjango class="m-2 md:m-4"/>
       <IconLaravel class="m-2 md:m-4"/>
+      <IconFlutter class="m-2 md:m-4"/>
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
@@ -21,7 +21,6 @@
     </div>
 
     <div class="flex flex-wrap items-center text-4xl mt-5">
-      <IconFlutter class="m-2 md:m-4"/>
       <IconFirebase class="m-2 md:m-4"/>
       <IconTailwind class="m-2 md:m-4"/>
       <IconDocker class="m-2 md:m-4"/>
