@@ -50,23 +50,6 @@
           </li>
         </ul>
 
-        <h2 class="font-bold mb-6 mt-12 underline">{{ $t('clientside') }} : </h2>
-        <div class="absolute right-0" style="top: 50px; transform: translate(100%) rotate(180deg)">
-          <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
-        </div>
-        <ul class="text-lg sm:text-xl space-y-6">
-          <li class="worked">
-            <div>🚆 ALD Caténaire</div>
-            <div class="text-lg text-gray-600">{{ $t('cs1') }}<br>
-            <a href="https://ald-catenaire.com/" target="_blank">{{ $t('vw') }}</a> </div>
-          </li>
-          <li class="worked">
-            <div>🎨 Omana</div>
-            <div class="text-lg text-gray-600">{{ $t('cs2') }}<br>
-            <a href="https://omana.sn" target="_blank">{{ $t('vw') }}</a> </div>
-          </li>
-        </ul>
-
       </div>
     </div>
   </div>
