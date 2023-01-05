@@ -94,5 +94,6 @@ sw.*
 # Makefile configuration
 makefile
 
-# package.json lockfile
+# Lockfile
 package-lock.json
+yarn.lock
