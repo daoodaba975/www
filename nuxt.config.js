@@ -25,16 +25,6 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap' }
     ],
-    script: [
-      {
-      "data-host": "https://microanalytics.io",
-      "data-dnt": false,
-      src: "https://microanalytics.io/js/script.js",
-      id: process.env.MICROANALYTICS_ANALYTICS_ID,
-      async: true,
-      defer: true
-      },
-    ]
   },
 
   css: [],
