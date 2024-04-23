@@ -1,29 +1,38 @@
 {
-  "name": "daoodadev",
-  "version": "0.1.0",
+  "name": "daoodaba975",
+  "version": "1.0.0",
   "private": true,
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=18.0.0"
+  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "nuxt",
+    "build": "build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@builder.io/partytown": "^0.7.6",
-    "@types/node": "18.15.5",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "@nuxt/content": "^1.6.0",
+    "@nuxtjs/axios": "^5.12.0",
+    "@nuxtjs/i18n": "^7.2.3",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/robots": "^2.5.0",
+    "caniuse-lite": "^1.0.30001376",
+    "date-fns": "^2.15.0",
+    "nuxt": "^2.15.8",
+    "prism-themes": "^1.4.0",
+    "vue-scrollto": "^2.18.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "next-themes": "^0.2.1",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.7"
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "yarn-upgrade-all": "^0.5.4"
   }
 }
