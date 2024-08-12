@@ -16,8 +16,8 @@ const HeadlessUI = () => (
         y2="115.987925%"
         id="linearGradient-1"
       >
-        <stop stop-color="#66E3FF" offset="0%"></stop>
-        <stop stop-color="#7064F9" offset="100%"></stop>
+        <stop stopColor="#66E3FF" offset="0%"></stop>
+        <stop stopColor="#7064F9" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="39.1716101%"
@@ -26,8 +26,8 @@ const HeadlessUI = () => (
         y2="99.1811839%"
         id="linearGradient-2"
       >
-        <stop stop-color="#66E3FF" offset="0%"></stop>
-        <stop stop-color="#7064F9" offset="100%"></stop>
+        <stop stopColor="#66E3FF" offset="0%"></stop>
+        <stop stopColor="#7064F9" offset="100%"></stop>
       </linearGradient>
     </defs>
     <g>
