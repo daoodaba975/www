@@ -7,13 +7,15 @@ import Arrow from "../svg/Arrow";
 const Subscribe = () => {
   return (
     <div className="my-10 sm:my-14">
-      <h2 className="mb-5 font-medium text-raisin dark:text-snow">Subscribe</h2>
+      <h2 className="mb-5 font-medium text-raisin dark:text-snow">
+        📬 Subscribe.
+      </h2>
 
       <form>
         <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-silver rounded-lg dark:border-raisin">
           <div className="relative w-full">
             <label className="sr-only">Subscribe</label>
-            <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
+            <div className="absolute text-raisin dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
               <Mail />
             </div>
             <input

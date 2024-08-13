@@ -19,7 +19,7 @@ const LatestArticles = () => {
           </p>
           <p className="mt-1">
             <Link
-              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-silver"
               href="#"
             >
               Continue reading
@@ -39,7 +39,7 @@ const LatestArticles = () => {
           </p>
           <p className="mt-1">
             <Link
-              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-silver"
               href="#"
             >
               Continue reading
@@ -58,7 +58,7 @@ const LatestArticles = () => {
           </p>
           <p className="mt-1">
             <Link
-              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-sm text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-silver"
               href="#"
             >
               Continue reading

@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import GitHub from "./svg/GitHub";
 
 const Footer = () => {
@@ -16,7 +17,7 @@ const Footer = () => {
             <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver pe-4 text-xs">
               <GitHub />
               <Link
-                className="text-xs text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+                className="text-xs text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
                 href="https://github.com/daoodaba975"
                 target="_blank"
               >

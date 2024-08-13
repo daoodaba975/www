@@ -5,6 +5,7 @@ import Link from "next/link";
 import GitHub from "../svg/GitHub";
 import X from "../svg/X";
 import Mail from "../svg/Mail";
+import LinkedIn from "../svg/LinkedIn";
 
 const Readme = () => {
   return (
@@ -13,7 +14,7 @@ const Readme = () => {
         <div className="shrink-0">
           <Image
             className="shrink-0 size-16 rounded-full"
-            src="/daooda.png"
+            src="/img/daooda.webp"
             width={100}
             height={100}
             alt="Daouda BA"
@@ -50,7 +51,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
             <Mail />
             <Link
-              className="text-[13px] text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="mailto:daoodaba975@gmail.com"
               target="_blank"
             >
@@ -59,9 +60,20 @@ const Readme = () => {
           </li>
 
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
+            <LinkedIn />
+            <Link
+              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+              href="https://www.linkedin.com/in/daoodaba975"
+              target="_blank"
+            >
+              @in/daoodaba975
+            </Link>
+          </li>
+
+          <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
             <X />
             <Link
-              className="text-[13px] text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://x.com/daoodaba975"
               target="_blank"
             >
@@ -72,7 +84,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
             <GitHub />
             <Link
-              className="text-[13px] text-raisin underline hover:text-raisin hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-neutral-400"
+              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://github.com/daoodaba975"
               target="_blank"
             >
