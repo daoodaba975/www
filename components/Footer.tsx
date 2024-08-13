@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import Emoji from "./Emoji";
 import GitHub from "./svg/GitHub";
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center gap-2">
           <div>
             <p className="text-xs text-night dark:text-snow">
-              © {new Date().getFullYear()} Daooda.
+              <Emoji /> ‒ {new Date().getFullYear()} Daooda.
             </p>
           </div>
 
