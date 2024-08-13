@@ -6,6 +6,7 @@ import GitHub from "../svg/GitHub";
 import X from "../svg/X";
 import Mail from "../svg/Mail";
 import LinkedIn from "../svg/LinkedIn";
+import SparkleText from "../SparkleText";
 
 const Readme = () => {
   return (
@@ -22,9 +23,7 @@ const Readme = () => {
         </div>
 
         <div className="grow">
-          <h1 className="text-lg font-medium text-raisin dark:text-snow">
-            Daouda BA
-          </h1>
+          <SparkleText />
           <p className="text-sm text-night dark:text-snow">
             FullStack Developer
           </p>
@@ -34,11 +33,53 @@ const Readme = () => {
       <div className="mt-8">
         <p className="text-sm text-night dark:text-snow">
           I am a FullStack Developer based at DAKAR, Senegal working in the
-          field of web and mobile development. Currently working @ Turing
-          Consulting Group in full-time remote 🏡 with more than +5 years of
-          experience. I am also the founder of Galsen DEV, the biggest
-          developers community in Senegal & passionate about building innovative
-          solution 🚀
+          field of web and mobile development. Currently working @{" "}
+          <Link
+            className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
+            href="https://turingconsulting.fr"
+            target="_blank"
+          >
+            <span className="text-sm font-bold mx-1 relative inline-block stroke-current">
+              Turing Consulting Group
+              <svg
+                className="text-celtic dark:text-emerald absolute -bottom-0.5 w-full max-h-1.5"
+                viewBox="0 0 55 5"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                fill="currentColor"
+              >
+                <path
+                  d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002"
+                  strokeWidth="2"
+                ></path>
+              </svg>
+            </span>
+          </Link>{" "}
+          in full-time remote 🏡 with more than +5 years of experience. I am
+          also the founder of{" "}
+          <Link
+            className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
+            href="https://galsen.dev"
+            target="_blank"
+          >
+            <span className="text-sm font-bold mx-1 relative inline-block stroke-current">
+              Galsen DEV
+              <svg
+                className="text-celtic dark:text-emerald absolute -bottom-0.5 w-full max-h-1.5"
+                viewBox="0 0 55 5"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none"
+                fill="currentColor"
+              >
+                <path
+                  d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002"
+                  strokeWidth="2"
+                ></path>
+              </svg>
+            </span>
+          </Link>
+          , the biggest developers community in Senegal & passionate about
+          building innovative solution 🚀
         </p>
 
         <p className="mt-3 text-sm text-night dark:text-snow">

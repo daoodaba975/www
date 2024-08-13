@@ -18,7 +18,24 @@ const config: Config = {
       raisin: "#25262B",
       night: "#101113",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        starScale: {
+          "from, to": {
+            transform: "rotate(0) scale(0)",
+            opacity: "0",
+          },
+
+          "50%": {
+            transform: "rotate(180deg) scale(1)",
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        starScale: "starScale 800ms ease infinite",
+      },
+    },
   },
   plugins: [require("preline/plugin")],
 };
