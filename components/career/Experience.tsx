@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Work from "../svg/Work";
 
 const Experience = () => {
   return (
@@ -10,14 +11,14 @@ const Experience = () => {
 
       <div>
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/xp/tcg.png"
+                src="/career/experience/turing_consulting_group.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
-                alt="Turing logo"
+                alt="Turing Consulting Group logo"
               />
             </div>
           </div>
@@ -63,14 +64,14 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/xp/ciga.png"
+                src="/career/experience/ciga_formation.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
-                alt="Ciga logo"
+                alt="Ciga Formation logo"
               />
             </div>
           </div>
@@ -93,10 +94,10 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/xp/xarala.png"
+                src="/career/experience/xarala.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -143,10 +144,10 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/xp/norma.png"
+                src="/career/experience/norma.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -193,14 +194,14 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/xp/tcg.png"
+                src="/career/experience/turing_consulting_group.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
-                alt="Turing logo"
+                alt="Turing Consulting Group logo"
               />
             </div>
           </div>
@@ -245,25 +246,9 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
-              <svg
-                className="shrink-0 size-6 text-raisin dark:text-snow"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M12 12h.01" />
-                <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                <rect width="20" height="14" x="2" y="6" rx="2" />
-              </svg>
+              <Work />
             </div>
           </div>
 
@@ -290,25 +275,9 @@ const Experience = () => {
         </div>
 
         <div className="group relative flex gap-x-5">
-          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+          <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
-              <svg
-                className="shrink-0 size-6 text-raisin dark:text-snow"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M12 12h.01" />
-                <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                <rect width="20" height="14" x="2" y="6" rx="2" />
-              </svg>
+              <Work />
             </div>
           </div>
 

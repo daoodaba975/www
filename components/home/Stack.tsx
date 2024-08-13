@@ -1,25 +1,5 @@
 import React from "react";
-
-import Figma from "../svg/Figma";
-import JavaScript from "../svg/JavaScript";
-import TypeScript from "../svg/TypeScript";
-import Dart from "../svg/Dart";
-import Ruby from "../svg/Ruby";
-import ReactJS from "../svg/ReactJS";
-import Next from "../svg/Next";
-import Flutter from "../svg/Flutter";
-import Rails from "../svg/Rails";
-import Tailwind from "../svg/Tailwind";
-import HeadlessUI from "../svg/HeadlessUI";
-import Redis from "../svg/Redis";
-import Firebase from "../svg/Firebase";
-import Pocketbase from "../svg/PocketBase";
-import Docker from "../svg/Docker";
-import GraphQL from "../svg/GraphQL";
-import Swagger from "../svg/Swagger";
-import Playwright from "../svg/Playwright";
-import Cucumber from "../svg/Cucumber";
-import Postman from "../svg/Postman";
+import Image from "next/image";
 
 const Stack = () => {
   return (
@@ -37,9 +17,35 @@ const Stack = () => {
           </dt>
           <dd>
             <ul>
-              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Figma />
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/figma.webp"
+                  alt="Figma"
+                  width={12}
+                  height={12}
+                />
                 Figma
+              </li>
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/canva.webp"
+                  alt="Canva"
+                  width={16}
+                  height={16}
+                />
+                Canva
+              </li>
+              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/blender.webp"
+                  alt="Blender"
+                  width={16}
+                  height={16}
+                />
+                Blender
               </li>
             </ul>
           </dd>
@@ -54,19 +60,43 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <JavaScript />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/javascript.webp"
+                  alt="JavaScript"
+                  width={16}
+                  height={16}
+                />
                 JavaScript
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <TypeScript />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/typescript.webp"
+                  alt="TypeScript"
+                  width={16}
+                  height={16}
+                />
                 TypeScript
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Dart />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/dart.webp"
+                  alt="Dart"
+                  width={16}
+                  height={16}
+                />
                 Dart
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Ruby />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/ruby.webp"
+                  alt="Ruby"
+                  width={16}
+                  height={16}
+                />
                 Ruby
               </li>
             </ul>
@@ -82,15 +112,33 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <ReactJS />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/react.webp"
+                  alt="React"
+                  width={16}
+                  height={16}
+                />
                 React
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Next />
-                Next
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/nextjs.webp"
+                  alt="Next"
+                  width={16}
+                  height={16}
+                />
+                Next JS
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Rails />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/rails.webp"
+                  alt="Rails"
+                  width={16}
+                  height={16}
+                />
                 Rails
               </li>
             </ul>
@@ -106,7 +154,13 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Flutter />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/flutter.webp"
+                  alt="Flutter"
+                  width={16}
+                  height={16}
+                />
                 Flutter
               </li>
             </ul>
@@ -122,11 +176,23 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Tailwind />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/tailwind.webp"
+                  alt="Tailwind"
+                  width={16}
+                  height={16}
+                />
                 Tailwind
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <HeadlessUI />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/headlessui.webp"
+                  alt="HeroIcons"
+                  width={12}
+                  height={12}
+                />
                 HeadlessUI
               </li>
             </ul>
@@ -142,15 +208,43 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Redis />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/redis.webp"
+                  alt="Redis"
+                  width={16}
+                  height={16}
+                />
                 Redis
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Firebase />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/postgresql.webp"
+                  alt="PosgreSQL"
+                  width={16}
+                  height={16}
+                />
+                PosgreSQL
+              </li>
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/firebase.webp"
+                  alt="Firebase"
+                  width={12}
+                  height={12}
+                />
                 Firebase
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Pocketbase />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/pocketbase.webp"
+                  alt="Pocketbase"
+                  width={16}
+                  height={16}
+                />
                 Pocketbase
               </li>
             </ul>
@@ -166,15 +260,33 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Playwright />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/playwright.webp"
+                  alt="Playwright"
+                  width={16}
+                  height={16}
+                />
                 Playwright
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Cucumber />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/cucumber.webp"
+                  alt="Cucumber"
+                  width={16}
+                  height={16}
+                />
                 Cucumber
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Postman />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/postman.webp"
+                  alt="Postman"
+                  width={16}
+                  height={16}
+                />
                 Postman
               </li>
             </ul>
@@ -190,16 +302,54 @@ const Stack = () => {
           <dd>
             <ul>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Docker />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/docker.webp"
+                  alt="Docker"
+                  width={16}
+                  height={16}
+                />
                 Docker
               </li>
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <GraphQL />
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/graphql.webp"
+                  alt="GraphQL"
+                  width={16}
+                  height={16}
+                />
                 GraphQL
               </li>
-              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Swagger />
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/swagger.webp"
+                  alt="Swagger"
+                  width={16}
+                  height={16}
+                />
                 Swagger
+              </li>
+              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/npm.webp"
+                  alt="NPM"
+                  width={16}
+                  height={16}
+                />
+                NPM
+              </li>
+              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1"
+                  src="/stacks/vscode.webp"
+                  alt="VS Code"
+                  width={16}
+                  height={16}
+                />
+                VS Code
               </li>
             </ul>
           </dd>

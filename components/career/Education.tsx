@@ -11,11 +11,11 @@ const Education = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div className="p-4 border border-silver rounded-lg dark:border-raisin">
           <Image
-            src="/xp/odc.png"
+            src="/career/education/sonatel_academy.webp"
             className="shrink-0 size-10 mb-3 rounded"
             width={32}
             height={32}
-            alt="ODC logo"
+            alt="Sonatel Academy logo"
           />
 
           <h3 className="mb-1 text-xs text-night dark:text-snow">
@@ -34,11 +34,11 @@ const Education = () => {
 
         <div className="p-4 border border-silver rounded-lg dark:border-raisin">
           <Image
-            src="/xp/isi.png"
+            src="/career/education/groupe_isi.webp"
             className="shrink-0 size-10 mb-3 rounded"
             width={32}
             height={32}
-            alt="ISI logo"
+            alt="Groupe ISI logo"
           />
 
           <h3 className="mb-1 text-xs text-night dark:text-snow">

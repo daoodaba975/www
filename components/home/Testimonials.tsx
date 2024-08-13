@@ -8,27 +8,28 @@ const Testimonials = () => {
         Testimonials
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-silver divide-y sm:divide-y-0 sm:divide-x divide-gray-200 dark:border-raisin dark:divide-neutral-700">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-silver divide-y sm:divide-y-0 sm:divide-x divide-silver dark:divide-raisin dark:border-raisin">
         <div className="sm:-ms-4 py-6 sm:px-4">
           <blockquote>
             <span className="text-sm text-raisin dark:text-snow">
-              I m absolutely floored by the level of care and attention to
-              detail Eliana has put into this project and for one can guarantee
-              that we will be a return customer.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
+              officia nemo eos atque ullam sequi. Reiciendis sapiente iure
+              quibusdam omnis libero excepturi perspiciatis quae provident nulla
+              consectetur? Excepturi, iste.
             </span>
 
             <footer className="mt-3">
               <div className="flex items-center gap-x-2">
                 <Image
                   className="shrink-0 size-5 rounded-full"
-                  src="/testimonial.jpeg"
+                  src="/img/daooda.png"
                   width={100}
                   height={100}
                   alt="Avatar"
                 />
                 <div className="grow">
                   <div className="text-xs text-raisin dark:text-snow">
-                    Josh Grazioso
+                    Firstname Lastname
                   </div>
                 </div>
               </div>
@@ -39,22 +40,24 @@ const Testimonials = () => {
         <div className="py-6 sm:px-4">
           <blockquote>
             <span className="text-sm text-raisin dark:text-snow">
-              To say that hiring Eliana has been life-changing is an
-              understatement. My business has tripled and I got my life back.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
+              officia nemo eos atque ullam sequi. Reiciendis sapiente iure
+              quibusdam omnis libero excepturi perspiciatis quae provident nulla
+              consectetur? Excepturi, iste.
             </span>
 
             <footer className="mt-3">
               <div className="flex items-center gap-x-2">
                 <Image
                   className="shrink-0 size-5 rounded-full"
-                  src="/testimonial.jpeg"
+                  src="/img/daooda.png"
                   width={100}
                   height={100}
                   alt="Avatar"
                 />
                 <div className="grow">
                   <div className="text-xs text-raisin dark:text-snow">
-                    Nicole Grazioso
+                    Firstname Lastname
                   </div>
                 </div>
               </div>
