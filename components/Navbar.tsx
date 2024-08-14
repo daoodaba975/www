@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+
 import { usePathname } from "next/navigation";
 
 import DarkModeToggle from "./DarkModeToggle";
@@ -24,7 +25,7 @@ const Navbar = () => {
               href="/"
             >
               <Image
-                src="/logo/logo-touch.png"
+                src="/img/logo.webp"
                 alt="Daooda Logo"
                 width={35}
                 height={35}
@@ -35,7 +36,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               type="button"
-              className="flex justify-center items-center size-6 border border-silver text-raisin rounded-full focus:outline-none dark:border-raisin dark:text-snow dark:hover:bg-silver dark:focus:bg-silver"
+              className="flex justify-center items-center size-6 border border-silver text-raisin rounded-full focus:outline-none focus:bg-silver dark:border-raisin dark:text-snow dark:hover:bg-silver dark:focus:bg-raisin"
               onClick={toggleMenu}
               aria-expanded={menuOpen}
               aria-controls="navbar-menu"
@@ -127,7 +128,9 @@ const Navbar = () => {
             >
               /articles
             </Link>
-            <DarkModeToggle />
+            <span className="flex items-center">
+              <DarkModeToggle />
+            </span>
           </div>
         </div>
       </nav>
