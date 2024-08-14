@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^2.1.2",
     "next": "14.2.5",
     "preline": "^2.4.1",
     "react": "^18",
