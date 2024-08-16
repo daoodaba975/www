@@ -50,6 +50,12 @@ function Header(props: Readonly<HeaderProps>) {
           content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/website/share/mweon2pqlmggy6xh5v69.png"
         />
       </Head>
+      {/* Beam Analytics */}
+      <script
+        src="https://beamanalytics.b-cdn.net/beam.min.js"
+        data-token={process.env.BEAM_DATA_TOKEN}
+        async
+      />
     </>
   );
 }
