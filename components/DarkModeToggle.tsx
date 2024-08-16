@@ -41,7 +41,7 @@ const DarkModeToggle: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="ml-1">
       <button
         type="button"
         className={`${
