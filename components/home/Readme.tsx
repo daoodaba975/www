@@ -4,11 +4,17 @@ import Link from "next/link";
 
 import GitHub from "../svg/GitHub";
 import X from "../svg/X";
-import Mail from "../svg/Mail";
 import LinkedIn from "../svg/LinkedIn";
+
 import SparkleText from "../SparkleText";
+import useGitHubFollowers from "@/../hooks/useGitHubFollowers";
 
 const Readme = () => {
+  const username = "daoodaba975";
+  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+  const token = GITHUB_TOKEN || "";
+  const followers = useGitHubFollowers(username, token);
+
   return (
     <main>
       <div className="flex items-center gap-x-3">
@@ -90,27 +96,19 @@ const Readme = () => {
 
         <ul className="mt-5 flex flex-col gap-y-3">
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <Mail />
+            <GitHub />
             <Link
-              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
-              href="mailto:daoodaba975@gmail.com"
+              className="text-[13px] text-raisin underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+              href="https://github.com/daoodaba975"
               target="_blank"
             >
-              daoodaba975@gmail.com
+              {followers !== null ? (
+                <p>{followers} followers</p>
+              ) : (
+                <p>Loading...</p>
+              )}
             </Link>
           </li>
-
-          <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <LinkedIn />
-            <Link
-              className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
-              href="https://www.linkedin.com/in/daoodaba975"
-              target="_blank"
-            >
-              @in/daoodaba975
-            </Link>
-          </li>
-
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
             <X />
             <Link
@@ -121,15 +119,14 @@ const Readme = () => {
               @daoodaba975
             </Link>
           </li>
-
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <GitHub />
+            <LinkedIn />
             <Link
               className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
-              href="https://github.com/daoodaba975"
+              href="https://www.linkedin.com/in/daoodaba975"
               target="_blank"
             >
-              @daoodaba975
+              @in/daoodaba975
             </Link>
           </li>
         </ul>
