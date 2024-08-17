@@ -87,9 +87,6 @@ const Navbar = () => {
           }`}
         >
           <div className="flex flex-col md:flex-row md:items-center md:justify-end gap-2 md:gap-3 mt-3 md:mt-0 py-2 md:py-0 md:ps-7">
-            <span className="flex items-center">
-              <DarkModeToggle />
-            </span>
             <Link
               className={
                 currentPath === HomePath
@@ -131,6 +128,9 @@ const Navbar = () => {
             >
               /articles
             </Link>
+            <span className="flex items-center">
+              <DarkModeToggle />
+            </span>
           </div>
         </div>
       </nav>

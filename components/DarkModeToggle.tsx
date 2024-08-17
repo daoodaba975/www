@@ -7,24 +7,15 @@ const DarkModeToggle: React.FC = () => {
   const [theme, setTheme] = useState<string>("light");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("hs_theme") || "auto";
-    setTheme(savedTheme);
-
-    const isLightOrAuto =
-      savedTheme === "light" ||
-      (savedTheme === "auto" &&
-        !window.matchMedia("(prefers-color-scheme: dark)").matches);
-    const isDarkOrAuto =
-      savedTheme === "dark" ||
-      (savedTheme === "auto" &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches);
-
+    const savedTheme = localStorage.getItem("hs_theme");
     const html = document.documentElement;
 
-    if (isLightOrAuto) {
-      html.classList.remove("dark");
-    } else if (isDarkOrAuto) {
+    if (savedTheme === "dark") {
+      setTheme("dark");
       html.classList.add("dark");
+    } else {
+      setTheme("light");
+      html.classList.remove("dark");
     }
   }, []);
 
