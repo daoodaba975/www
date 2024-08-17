@@ -32,7 +32,7 @@ export const projects: Project[] = [
       "A starter app template for React Native Expo, featuring a ready-to-use login screen.",
   },
   {
-    name: "JustFrontKit 🛠",
+    name: "JustFrontKit 🧱",
     repo: "daoodaba975/just.front.kit",
     description:
       "A large collection of basic frontend components, crafted with only HTML, CSS, and JavaScript, ready to be used.",
