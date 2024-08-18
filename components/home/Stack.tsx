@@ -358,7 +358,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dt className="min-w-40">
             <span className="block text-sm text-raisin dark:text-snow">
-              Expertise:
+              Expertise :
             </span>
           </dt>
           <dd>
@@ -382,7 +382,7 @@ const Stack = () => {
         <dl className="flex flex-col sm:flex-row gap-1">
           <dt className="min-w-40">
             <span className="block text-sm text-raisin dark:text-snow">
-              Soft Skills:
+              Soft Skills :
             </span>
           </dt>
           <dd>
