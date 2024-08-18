@@ -10,13 +10,12 @@ const Error500 = () => {
       </h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-        <div className="group block relative overflow-hidden">
+        <div className="group block relative overflow-hidden w-[300px] h-auto">
           <Image
-            className="rounded-lg"
             src="/illustrations/server_down.webp"
-            width={1000}
-            height={800}
-            alt="404 error"
+            width={300}
+            height={200}
+            alt="500 error"
           />
         </div>
       </div>

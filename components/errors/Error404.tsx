@@ -10,12 +10,11 @@ const Error404 = () => {
       </h2>
 
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-        <div className="group block relative overflow-hidden">
+        <div className="group block relative overflow-hidden w-[300px] h-auto">
           <Image
-            className="rounded-lg"
             src="/illustrations/404_error.webp"
-            width={1000}
-            height={800}
+            width={300}
+            height={200}
             alt="404 error"
           />
         </div>
