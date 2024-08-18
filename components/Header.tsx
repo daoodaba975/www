@@ -11,7 +11,7 @@ function Header(props: Readonly<HeaderProps>) {
         <title>{props.header}</title>
         <meta
           name="description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Based in DAKAR, Senegal."
+          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solution 🚀"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -26,12 +26,12 @@ function Header(props: Readonly<HeaderProps>) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/website/share/mweon2pqlmggy6xh5v69.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/h3ln2ib2b7qu0hgpezty.png"
         />
         <meta property="og:title" content="Daouda BA" />
         <meta
           property="og:description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Based in DAKAR, Senegal."
+          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solution 🚀"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -43,13 +43,14 @@ function Header(props: Readonly<HeaderProps>) {
         <meta name="twitter:title" content="Daouda BA" />
         <meta
           name="twitter:description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Based in DAKAR, Senegal."
+          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solution 🚀"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/website/share/mweon2pqlmggy6xh5v69.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/h3ln2ib2b7qu0hgpezty.png"
         />
       </Head>
+
       {/* Beam Analytics */}
       <script
         src="https://beamanalytics.b-cdn.net/beam.min.js"
