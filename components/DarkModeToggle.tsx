@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-
-import Moon from "./svg/Moon";
-import Sun from "./svg/Sun";
+import { PiMoonStarsFill, PiSunFill } from "react-icons/pi";
 
 const DarkModeToggle: React.FC = () => {
   const [theme, setTheme] = useState<string>("light");
@@ -42,7 +40,7 @@ const DarkModeToggle: React.FC = () => {
         data-hs-theme-click-value="dark"
       >
         <span className="group inline-flex shrink-0 justify-center items-center size-9">
-          <Moon />
+          <PiMoonStarsFill />
         </span>
       </button>
       <button
@@ -54,7 +52,7 @@ const DarkModeToggle: React.FC = () => {
         data-hs-theme-click-value="light"
       >
         <span className="group inline-flex shrink-0 justify-center items-center size-9">
-          <Sun />
+          <PiSunFill />
         </span>
       </button>
     </div>

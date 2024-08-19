@@ -1,8 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
-import GitHub from "../svg/GitHub";
 import { projects } from "@/../data/project";
 
 interface Project {
@@ -80,7 +80,7 @@ const AllProjects = () => {
                 href={project.url || `https://github.com/${project.repo}`}
                 target="_blank"
               >
-                View on <GitHub />
+                View on <FaGithub />
               </Link>
             </div>
           </div>

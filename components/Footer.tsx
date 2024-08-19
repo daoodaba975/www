@@ -1,7 +1,7 @@
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 
 import Emoji from "./Emoji";
-import GitHub from "./svg/GitHub";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
 
           <ul className="flex flex-wrap items-center">
             <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver pe-4 text-xs">
-              <GitHub />
+              <FaGithub />
               <Link
                 className="text-xs text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
                 href="https://github.com/daoodaba975"

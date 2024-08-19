@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Work from "../svg/Work";
+import { MdOutlineWorkOutline } from "react-icons/md";
 
 const Experience = () => {
   return (
@@ -247,8 +247,8 @@ const Experience = () => {
 
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
-            <div className="relative z-10 size-6 flex justify-center items-center">
-              <Work />
+            <div className="relative z-10 size-6 flex justify-center items-center text-raisin dark:text-snow">
+              <MdOutlineWorkOutline />
             </div>
           </div>
 
@@ -276,8 +276,8 @@ const Experience = () => {
 
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
-            <div className="relative z-10 size-6 flex justify-center items-center">
-              <Work />
+            <div className="relative z-10 size-6 flex justify-center items-center text-raisin dark:text-snow">
+              <MdOutlineWorkOutline />
             </div>
           </div>
 

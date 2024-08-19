@@ -1,8 +1,6 @@
 import React from "react";
-import Link from "next/link";
-
-import Mail from "../svg/Mail";
-import Arrow from "../svg/Arrow";
+import { IoIosArrowForward } from "react-icons/io";
+import { LuMailbox } from "react-icons/lu";
 
 const Subscribe = () => {
   return (
@@ -16,23 +14,24 @@ const Subscribe = () => {
           <div className="relative w-full">
             <label className="sr-only">Subscribe</label>
             <div className="absolute text-raisin dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
-              <Mail />
+              <LuMailbox />
             </div>
             <input
               type="text"
               id="hero-input"
-              name="hero-input"
+              name="email"
+              required
               className="py-2 ps-9 pe-3 block w-full border-silver rounded-lg text-sm focus:border-silver outline-pacific dark:outline-mint focus:ring-silver disabled:opacity-50 disabled:pointer-events-none bg-snow dark:bg-raisin dark:text-snow dark:placeholder-snow"
               placeholder="Enter your email"
             />
           </div>
-          <Link
+          <button
             className="w-full sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-raisin dark:hover:text-raisin focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
-            href="#"
+            type="submit"
           >
             Join
-            <Arrow />
-          </Link>
+            <IoIosArrowForward />
+          </button>
         </div>
       </form>
     </div>
