@@ -250,8 +250,8 @@ const Stack = () => {
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/netlify.webp"
                   alt="Netlify"
-                  width={32}
-                  height={32}
+                  width={30}
+                  height={30}
                 />
               </li>
               <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
