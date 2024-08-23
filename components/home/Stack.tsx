@@ -170,6 +170,22 @@ const Stack = () => {
               </li>
               <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
                 <Image
+                  className="shrink-0 me-1 w-[34px] h-auto block dark:hidden"
+                  src="/stacks/prisma_light.webp"
+                  alt="Prisma"
+                  width={30}
+                  height={30}
+                />
+                <Image
+                  className="shrink-0 me-1 w-[34px] h-auto hidden dark:block"
+                  src="/stacks/prisma_dark.webp"
+                  alt="Prisma"
+                  width={30}
+                  height={30}
+                />
+              </li>
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/firebase.webp"
                   alt="Firebase"
@@ -182,15 +198,6 @@ const Stack = () => {
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/pocketbase.webp"
                   alt="Pocketbase"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/graphql.webp"
-                  alt="GraphQL"
                   width={32}
                   height={32}
                 />
@@ -234,6 +241,15 @@ const Stack = () => {
                   className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/swagger.webp"
                   alt="Swagger"
+                  width={32}
+                  height={32}
+                />
+              </li>
+              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
+                <Image
+                  className="shrink-0 me-1 w-[36px] h-auto"
+                  src="/stacks/graphql.webp"
+                  alt="GraphQL"
                   width={32}
                   height={32}
                 />
