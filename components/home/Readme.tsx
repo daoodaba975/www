@@ -1,10 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-import GitHub from "../svg/GitHub";
-import X from "../svg/X";
-import LinkedIn from "../svg/LinkedIn";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 import SparkleText from "../SparkleText";
 import useGitHubFollowers from "@/../hooks/useGitHubFollowers";
@@ -96,7 +94,7 @@ const Readme = () => {
 
         <ul className="mt-5 flex flex-col gap-y-3">
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <GitHub />
+            <FaGithub />
             <Link
               className="text-[13px] text-raisin underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://github.com/daoodaba975"
@@ -110,7 +108,7 @@ const Readme = () => {
             </Link>
           </li>
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <X />
+            <FaXTwitter />
             <Link
               className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://x.com/daoodaba975"
@@ -120,7 +118,7 @@ const Readme = () => {
             </Link>
           </li>
           <li className="flex items-center gap-x-2.5 text-raisin dark:text-silver">
-            <LinkedIn />
+            <FaLinkedin />
             <Link
               className="text-[13px] text-raisin underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
               href="https://www.linkedin.com/in/daoodaba975"

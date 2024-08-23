@@ -17,6 +17,7 @@ const config: Config = {
       mint: "#9CE8C9",
       raisin: "#25262B",
       night: "#101113",
+      red: "#E54B4B",
     },
     extend: {
       keyframes: {
