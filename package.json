@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "next": "14.2.5",
+    "pg": "^8.12.0",
     "preline": "^2.4.1",
     "react": "^18",
     "react-dom": "^18",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.11.6",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
