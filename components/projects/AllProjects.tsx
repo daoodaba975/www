@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaCoffee } from "react-icons/fa";
 
 import { projects } from "@/../data/project";
 
@@ -85,6 +85,20 @@ const AllProjects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="mt-10 sm:mt-14">
+        <p className="mt-1 text-sm text-raisin dark:text-snow">
+          I love contributing to open-source projects and building cutting-edge
+          solutions, if you&apos;d like to support my work, you can buy me a
+          coffee to help me continue growing and creating amazing things 🤝🏾
+        </p>
+        <Link
+          className="w-full mt-2 sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic dark:bg-emerald text-snow hover:bg-pacific dark:text-snow dark:hover:bg-mint hover:text-raisin dark:hover:text-raisin focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
+          href="https://buymeacoffee.com/daoodaba975"
+          target="_blank"
+        >
+          <FaCoffee /> Buy Me a Coffee
+        </Link>
       </div>
     </div>
   );
