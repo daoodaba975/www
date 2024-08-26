@@ -35,7 +35,7 @@ function Header(props: Readonly<HeaderProps>) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/h3ln2ib2b7qu0hgpezty.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/d26yiyylbnrdjx9hnfd8.png"
         />
         <meta property="og:title" content="Daouda BA" />
         <meta
@@ -56,7 +56,7 @@ function Header(props: Readonly<HeaderProps>) {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/h3ln2ib2b7qu0hgpezty.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/d26yiyylbnrdjx9hnfd8.png"
         />
       </Head>
     </>
