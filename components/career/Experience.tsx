@@ -14,7 +14,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/turing_consulting_group.webp"
+                src="/career/experience/turing.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
@@ -67,18 +67,18 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/ciga_formation.webp"
+                src="/career/experience/ciga.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}
-                alt="Ciga Formation logo"
+                alt="Ciga logo"
               />
             </div>
           </div>
 
           <div className="grow pb-8 group-last:pb-0">
             <h3 className="mb-1 text-xs text-night dark:text-snow">
-              @ CIGA Formation (Part-time) - since December 2023
+              @ CIGA (Part-time) - since December 2023
             </h3>
 
             <p className="font-semibold text-sm text-raisin dark:text-snow">
@@ -86,9 +86,14 @@ const Experience = () => {
             </p>
 
             <p className="mt-1 text-sm text-night dark:text-snow">
-              Designing, developing, and maintaining websites and mobile
-              applications using techno such as JavaScript, TypeScript, and Dart
-              to create interactive and dynamic features.
+              At CIGA, I teach JavaScript to first and third-year university
+              students. My role is to break down complex concepts into
+              accessible lessons to ensure a solid understanding of programming
+              principles. I incorporate practical projects to reinforce learning
+              and encourage students to apply their knowledge in real-life
+              situations. I foster a supportive learning environment to help
+              them build confidence in their coding skills and prepare for
+              advanced studies.
             </p>
           </div>
         </div>
@@ -197,7 +202,7 @@ const Experience = () => {
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center">
               <Image
-                src="/career/experience/turing_consulting_group.webp"
+                src="/career/experience/turing.webp"
                 className="shrink-0 size-6 rounded"
                 width={32}
                 height={32}

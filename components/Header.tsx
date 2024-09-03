@@ -1,19 +1,10 @@
 import Head from "next/head";
-import { useEffect } from "react";
 
 interface HeaderProps {
   header: string;
 }
 
 function Header(props: Readonly<HeaderProps>) {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://beamanalytics.b-cdn.net/beam.min.js";
-    script.setAttribute("data-token", process.env.BEAM_DATA_TOKEN || "");
-    script.async = true;
-    document.head.appendChild(script);
-  }, []);
-
   return (
     <>
       <Head>
@@ -59,6 +50,12 @@ function Header(props: Readonly<HeaderProps>) {
           content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/daooda/share/d26yiyylbnrdjx9hnfd8.png"
         />
       </Head>
+      {/* Beam Analytics */}
+      <script
+        src="https://beamanalytics.b-cdn.net/beam.min.js"
+        data-token={process.env.BEAM_DATA_TOKEN}
+        async
+      />
     </>
   );
 }
