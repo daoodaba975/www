@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { IoMenu, IoClose } from "react-icons/io5";
 
 import DarkModeToggle from "./DarkModeToggle";
-import { HomePath, CareerPath, ProjectsPath, ArticlesPath } from "@/../routes";
+import { HomePath, CareerPath, ProjectsPath, WritingsPath } from "@/../routes";
 
 const Navbar = () => {
   const currentPath = usePathname();
@@ -95,13 +95,13 @@ const Navbar = () => {
             </Link>
             <Link
               className={
-                currentPath === ArticlesPath
+                currentPath === WritingsPath
                   ? "py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-4 border-raisin font-extrabold text-night hover:text-raisin focus:outline-none dark:border-snow dark:text-snow"
                   : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-raisin hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-emerald"
               }
-              href={ArticlesPath}
+              href={WritingsPath}
             >
-              /articles
+              /writings
             </Link>
             <span className="flex items-center">
               <DarkModeToggle />
