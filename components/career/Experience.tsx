@@ -34,32 +34,21 @@ const Experience = () => {
             </p>
 
             <p className="mt-1 text-sm text-night dark:text-snow">
-              Designing, developing, and maintaining websites and mobile
-              applications using techno such as JavaScript, TypeScript, and Dart
-              to create interactive and dynamic features.
+              I specialize in designing, developing, and maintaining websites
+              and mobile applications using technologies like JavaScript,
+              TypeScript, and Dart. My focus is on creating interactive, dynamic
+              features and optimizing performance to ensure fast loading times
+              and a smooth user experience. I prioritize responsive design to
+              guarantee compatibility across various devices and screen sizes.
             </p>
 
-            <ul className="list-disc ms-6 mt-3 space-y-1.5">
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Optimizing the performance of websites and mobile applications
-                to ensure fast loading times and provide a smooth user
-                experience.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Ensuring the compatibility of sites and applications with
-                various devices and screen sizes by implementing responsive
-                design approaches.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Being responsible for the quality assurance of the developed
-                products by implementing testing procedures to ensure a high
-                level of reliability for our solutions.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Using technologies like WebDriver, Playwright, and Cypress to
-                guarantee the robustness and performance of our applications.
-              </li>
-            </ul>
+            <p className="mt-1 text-sm text-night dark:text-snow">
+              In addition to development, I am responsible for quality
+              assurance, ensuring high reliability through rigorous testing
+              procedures. I use tools such as WebDriver, Playwright, and Cypress
+              to enhance the robustness and performance of the applications,
+              ensuring they meet the highest standards.
+            </p>
           </div>
         </div>
 
@@ -120,31 +109,16 @@ const Experience = () => {
             </p>
 
             <p className="mt-1 text-sm text-night dark:text-snow">
-              As a passionate Mentor at Xarala, I engage in a rewarding
-              experience where I contribute to the success of learners enrolled
-              on the platform. Xarala, a reference in the field of online
-              education, offers cutting-edge Bootcamps focused on emerging
-              technologies.
+              As a passionate Mentor at Xarala, I contribute to the success of
+              learners by providing in-depth support, sharing knowledge, and
+              fostering a collaborative learning environment. Xarala, a leader
+              in online education, offers advanced Bootcamps focused on emerging
+              technologies. I conduct interactive sessions, offer constructive
+              feedback, and provide personalized guidance, with a focus on
+              JavaScript and Flutter—key skills in modern software development.
+              My role is to help learners acquire practical skills and prepare
+              them to tackle the challenges of the professional world.
             </p>
-
-            <ul className="list-disc ms-6 mt-3 space-y-1.5">
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Provide in-depth support, share knowledge, and create a
-                collaborative learning environment.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Conduct interactive sessions, offer constructive feedback, and
-                provide personalized guidance.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Focus on expertise in JavaScript and Flutter technologies, which
-                are essential skills in modern software development.
-              </li>
-              <li className="ps-1 text-sm text-night dark:text-snow">
-                Guide learners in acquiring practical skills and prepare them to
-                face the challenges of the professional world.
-              </li>
-            </ul>
           </div>
         </div>
 
