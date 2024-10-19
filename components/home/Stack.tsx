@@ -15,49 +15,6 @@ const Stack = () => {
               <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
                 <Image
                   className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/javascript.webp"
-                  alt="JavaScript"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/typescript.webp"
-                  alt="TypeScript"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/ruby.webp"
-                  alt="Ruby"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/stacks/dart.webp"
-                  alt="Dart"
-                  width={32}
-                  height={32}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-raisin dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
                   src="/stacks/react.webp"
                   alt="React"
                   width={34}
@@ -307,33 +264,11 @@ const Stack = () => {
               <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
                 Web Development
               </li>
-              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                Project Management
-              </li>
               <li className="me-1 inline-flex items-center text-sm text-raisin dark:text-snow">
                 Mobile Apps
               </li>
               <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
                 & Testing
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                Strong communication
-              </li>
-              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-raisin dark:text-snow">
-                Problem-solving
-              </li>
-              <li className="me-1 inline-flex items-center text-sm text-raisin dark:text-snow">
-                Attention to detail
-              </li>
-              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-raisin dark:text-snow">
-                & Time management
               </li>
             </ul>
           </dd>

@@ -36,14 +36,18 @@ const Readme = () => {
 
       <div className="mt-8">
         <p className="text-sm text-night dark:text-snow">
-          I am a FullStack Developer based at DAKAR, Senegal working in the
-          field of web and mobile development. Currently working @{" "}
+          I am a FullStack Developer and Open Source Enthusiast from Senegal,
+          working in the field of web and mobile development. Always down for
+          building cool stuff and sharing it with the world !
+        </p>
+        <p className="text-sm text-night dark:text-snow">
+          Currently working @{" "}
           <Link
             className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
             href="https://turingconsulting.fr"
             target="_blank"
           >
-            <span className="text-sm font-bold mx-1 relative inline-block stroke-current">
+            <span className="text-sm font-bold relative inline-block stroke-current">
               Turing Consulting Group
               <svg
                 className="text-celtic dark:text-emerald absolute -bottom-0.5 w-full max-h-1.5"
@@ -59,14 +63,13 @@ const Readme = () => {
               </svg>
             </span>
           </Link>{" "}
-          in full-time remote 🏡 with more than +5 years of experience. I am
-          also the founder of{" "}
+          in full-time remote 🏡 I am also the Founder & Lead of{" "}
           <Link
             className="text-celtic dark:text-emerald hover:text-pacific dark:hover:text-mint"
             href="https://galsen.dev"
             target="_blank"
           >
-            <span className="text-sm font-bold mx-1 relative inline-block stroke-current">
+            <span className="text-sm font-bold relative inline-block stroke-current">
               Galsen DEV
               <svg
                 className="text-celtic dark:text-emerald absolute -bottom-0.5 w-full max-h-1.5"

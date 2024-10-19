@@ -5,7 +5,7 @@ const LatestArticles = () => {
   return (
     <div className="my-10 sm:my-14">
       <h2 className="mb-5 font-medium text-raisin dark:text-snow">
-        🗞️ Articles.
+        🗞️ Writings.
       </h2>
 
       <ul className="space-y-10">
