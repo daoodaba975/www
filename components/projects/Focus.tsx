@@ -69,7 +69,9 @@ const Focus: React.FC<FocusProps> = ({
 
   const handleMouseLeave = () => {
     if (manualMode) {
-      setCurrentIndex(lastActiveIndex!);
+      if (lastActiveIndex !== null) {
+        setCurrentIndex(lastActiveIndex);
+      }
     }
   };
 
