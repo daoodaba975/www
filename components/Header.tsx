@@ -11,7 +11,7 @@ function Header(props: Readonly<HeaderProps>) {
         <title>{props.header}</title>
         <meta
           name="description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solutions 🚀"
+          content="FullStack Developer - Passionate about building innovative solutions 🚀"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -30,7 +30,7 @@ function Header(props: Readonly<HeaderProps>) {
         <meta property="og:title" content="Daouda BA" />
         <meta
           property="og:description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solutions 🚀"
+          content="FullStack Developer - Passionate about building innovative solutions 🚀"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -41,7 +41,7 @@ function Header(props: Readonly<HeaderProps>) {
         <meta name="twitter:title" content="Daouda BA" />
         <meta
           name="twitter:description"
-          content="👨🏽‍💻 Daouda BA, FullStack Developer ‒ Passionate about building innovative solutions 🚀"
+          content="FullStack Developer - Passionate about building innovative solutions 🚀"
         />
         <meta
           name="twitter:image"
