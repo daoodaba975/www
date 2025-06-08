@@ -1,6 +1,6 @@
 import Header from "@/../components/Header";
 import LatestWritings from "@/../components/home/LatestWritings";
-import Subscribe from "@/../components/home/Subscribe";
+import Subscribe from "@/../components/Subscribe";
 
 export default function Writings() {
   return (
