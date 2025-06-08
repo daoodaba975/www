@@ -52,7 +52,7 @@ const Subscribe = () => {
       </h2>
 
       <form onSubmit={handleSubmit}>
-        <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-silver rounded-lg dark:border-eigengrau">
+        <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-lico rounded-lg dark:border-eigengrau">
           <div className="relative w-full">
             <label className="sr-only">Subscribe</label>
             <div className="absolute text-eigengrau dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
@@ -64,7 +64,7 @@ const Subscribe = () => {
               name="email"
               required
               ref={emailInputRef}
-              className="py-2 ps-9 pe-3 block w-full border-silver rounded-lg text-sm focus:border-silver outline-pacific dark:outline-mint focus:ring-silver disabled:opacity-50 disabled:pointer-events-none bg-snow dark:bg-eigengrau dark:text-snow dark:placeholder-snow"
+              className="py-2 ps-9 pe-3 block w-full border-lico rounded-lg text-sm focus:border-lico outline-pacific dark:outline-mint focus:ring-silver disabled:opacity-50 disabled:pointer-events-none bg-snow dark:bg-eigengrau dark:text-snow dark:placeholder-snow"
               placeholder="Enter your email"
             />
           </div>
@@ -89,8 +89,8 @@ const Subscribe = () => {
           tabIndex={-1}
           aria-labelledby="hs-basic-modal-label"
         >
-          <div className="bg-snow dark:bg-night border border-silver dark:border-silver shadow-sm rounded-xl p-4">
-            <div className="flex justify-between items-center pb-3 border-b border-silver dark:border-silver">
+          <div className="bg-snow dark:bg-night border border-lico dark:border-lico shadow-sm rounded-xl p-4">
+            <div className="flex justify-between items-center pb-3 border-b border-lico dark:border-lico">
               <h3
                 id="hs-basic-modal-label"
                 className="font-bold text-eigengrau dark:text-snow"

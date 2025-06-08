@@ -59,9 +59,9 @@ const AllProjects = () => {
       <div>
         {projectData.map((project) => (
           <div key={project.repo} className="flex gap-x-3">
-            <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-silver dark:after:bg-eigengrau">
+            <div className="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-silver dark:after:bg-gayvin">
               <div className="relative z-10 size-7 flex justify-center items-center">
-                <div className="size-2 rounded-full bg-silver dark:bg-eigengrau"></div>
+                <div className="size-2 rounded-full bg-silver dark:bg-gayvin"></div>
               </div>
             </div>
             <div className="grow pt-0.5 pb-8">

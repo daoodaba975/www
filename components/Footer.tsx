@@ -6,7 +6,7 @@ import Emoji from "./Emoji";
 const Footer = () => {
   return (
     <footer className="w-full max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
-      <div className="py-6 border-t border-silver dark:border-eigengrau">
+      <div className="py-6 border-t border-lico dark:border-eigengrau">
         <div className="flex flex-wrap justify-between items-center gap-2">
           <div>
             <p className="text-xs text-night dark:text-snow">

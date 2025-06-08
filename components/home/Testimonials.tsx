@@ -7,7 +7,7 @@ const Testimonials = () => {
         Testimonials
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-silver divide-y sm:divide-y-0 sm:divide-x divide-silver dark:divide-eigengrau dark:border-eigengrau">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-lico divide-y sm:divide-y-0 sm:divide-x divide-silver dark:divide-eigengrau dark:border-eigengrau">
         <div className="sm:-ms-4 py-6 sm:px-4">
           <blockquote>
             <span className="text-sm text-eigengrau dark:text-snow">
@@ -21,7 +21,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-x-2">
                 <Image
                   className="shrink-0 size-5 rounded-full"
-                  src="/img/daooda.png"
+                  src="/img/daooda.webp"
                   width={100}
                   height={100}
                   alt="Avatar"
@@ -49,7 +49,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-x-2">
                 <Image
                   className="shrink-0 size-5 rounded-full"
-                  src="/img/daooda.png"
+                  src="/img/daooda.webp"
                   width={100}
                   height={100}
                   alt="Avatar"

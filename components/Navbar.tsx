@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <nav className="mt-4 relative max-w-2xl w-full border border-silver dark:border-eigengrau rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto">
+      <nav className="mt-4 relative max-w-2xl w-full border border-lico dark:border-eigengrau rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto">
         <div className="px-4 md:px-0 flex justify-between items-center">
           <div>
             <Link
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               type="button"
-              className="flex justify-center items-center size-6 border border-silver text-eigengrau rounded-full focus:outline-none focus:bg-silver dark:border-eigengrau dark:text-snow dark:hover:bg-silver dark:focus:bg-eigengrau"
+              className="flex justify-center items-center size-6 border border-lico text-eigengrau rounded-full focus:outline-none focus:bg-silver dark:border-eigengrau dark:text-snow dark:hover:bg-silver dark:focus:bg-eigengrau"
               onClick={toggleMenu}
               aria-expanded={menuOpen}
               aria-controls="navbar-menu"
