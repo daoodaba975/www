@@ -18,6 +18,8 @@ const config: Config = {
       eigengrau: "#16161D",
       night: "#101113",
       red: "#E54B4B",
+      gayvin: "#2c2c2c",
+      lico: "#dfe5ec",
     },
     extend: {
       keyframes: {
