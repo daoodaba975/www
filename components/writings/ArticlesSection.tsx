@@ -15,7 +15,6 @@ const formatDate = (dateString: string) => {
 };
 
 const ArticlesSection = ({ articles }: { articles: Article[] }) => {
-  console.log(articles);
   return (
     <div className="my-10 sm:my-14">
       <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
