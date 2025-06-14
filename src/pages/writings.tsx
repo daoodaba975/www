@@ -1,12 +1,28 @@
-import Header from "@/../components/Header";
-import LatestWritings from "@/../components/home/LatestWritings";
-import Subscribe from "@/../components/Subscribe";
+import { GetStaticProps } from "next";
 
-export default function Writings() {
+import Header from "@/../components/Header";
+import Subscribe from "@/../components/Subscribe";
+import ArticlesSection from "@/../components/writings/ArticlesSection";
+
+import { getAllArticles, ArticleMeta } from "@/../lib/mdx";
+
+export const getStaticProps: GetStaticProps = async () => {
+  const articles = getAllArticles().sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+
+  return {
+    props: {
+      articles,
+    },
+  };
+};
+
+export default function Writings({ articles }: { articles: ArticleMeta[] }) {
   return (
     <>
       <Header header="Writings - Read all my latest articles here 🗞️" />
-      <LatestWritings />
+      <ArticlesSection articles={articles} />
       <Subscribe />
     </>
   );
