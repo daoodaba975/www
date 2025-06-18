@@ -13,7 +13,9 @@ export type ArticleMeta = {
 const articlesDirectory = path.join(process.cwd(), "articles");
 
 export function getAllArticles(): ArticleMeta[] {
-  const files = fs.readdirSync(articlesDirectory);
+  const files = fs
+    .readdirSync(articlesDirectory)
+    .filter((f) => /\.mdx?$/.test(f));
 
   return files.map((filename) => {
     const filePath = path.join(articlesDirectory, filename);
@@ -45,6 +47,7 @@ export function getArticleBySlug(slug: string): {
       description: data.description,
       date: data.date,
       slug,
+      image: data.image,
     },
   };
 }
