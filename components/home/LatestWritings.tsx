@@ -11,7 +11,11 @@ type Article = {
 
 const formatDate = (dateString: string) => {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-EN");
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
 };
 
 const LatestWritings = ({ articles }: { articles: Article[] }) => {
@@ -37,7 +41,10 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
     );
   }
 
-  const latest = articles[0];
+  // guarantee deterministic "latest"
+  const [latest] = [...articles].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
 
   return (
     <div className="my-10 sm:my-14">

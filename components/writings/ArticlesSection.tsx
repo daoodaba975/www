@@ -11,7 +11,7 @@ type Article = {
 
 const formatDate = (dateString: string) => {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-EN");
+  return date.toLocaleDateString("en-US");
 };
 
 const ArticlesSection = ({ articles }: { articles: Article[] }) => {
