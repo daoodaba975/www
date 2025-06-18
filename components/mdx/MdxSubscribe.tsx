@@ -54,13 +54,15 @@ const MdxSubscribe = () => {
       <form onSubmit={handleSubmit}>
         <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 border border-lico rounded-lg dark:border-eigengrau">
           <div className="relative w-full">
-            <label className="sr-only">Subscribe</label>
+            <label htmlFor="subscribe-email" className="sr-only">
+              Subscribe
+            </label>
             <div className="absolute text-eigengrau dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
               <LuMailbox />
             </div>
             <input
               type="email"
-              id="hero-input"
+              id="subscribe-email"
               name="email"
               required
               ref={emailInputRef}
