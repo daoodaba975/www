@@ -80,7 +80,7 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
             </p>
             <p className="mt-1">
               <Link
-                className="text-sm text-celtic dark:text-emerald hover:text-pacific  dark:hover:text-mint underline hover:decoration-2 focus:outline-none focus:decoration-2"
+                className="text-sm text-celtic hover:text-pacific underline hover:decoration-2 focus:outline-none focus:decoration-2"
                 href={`/articles/${latest.slug}`}
               >
                 Continue reading

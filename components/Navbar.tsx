@@ -66,7 +66,7 @@ const Navbar = () => {
               className={
                 currentPath === HomePath
                   ? "py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-4 border-eigengrau font-extrabold text-night hover:text-eigengrau focus:outline-none dark:border-snow dark:text-snow"
-                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-emerald"
+                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-pacific"
               }
               href={HomePath}
               aria-current="page"
@@ -77,7 +77,7 @@ const Navbar = () => {
               className={
                 currentPath === CareerPath
                   ? "py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-4 border-eigengrau font-extrabold text-night hover:text-eigengrau focus:outline-none dark:border-snow dark:text-snow"
-                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-emerald"
+                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-pacific"
               }
               href={CareerPath}
             >
@@ -87,7 +87,7 @@ const Navbar = () => {
               className={
                 currentPath === ProjectsPath
                   ? "py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-4 border-eigengrau font-extrabold text-night hover:text-eigengrau focus:outline-none dark:border-snow dark:text-snow"
-                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-emerald"
+                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-pacific"
               }
               href={ProjectsPath}
             >
@@ -97,7 +97,7 @@ const Navbar = () => {
               className={
                 currentPath === WritingsPath
                   ? "py-0.5 md:py-3 px-4 md:px-1 border-s-2 md:border-s-0 md:border-b-4 border-eigengrau font-extrabold text-night hover:text-eigengrau focus:outline-none dark:border-snow dark:text-snow"
-                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-emerald"
+                  : "py-0.5 md:py-3 px-4 md:px-1 md:border-s-0 border-transparent text-eigengrau hover:text-celtic focus:outline-none dark:text-silver dark:hover:text-pacific"
               }
               href={WritingsPath}
             >

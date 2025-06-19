@@ -18,7 +18,7 @@ const Footer = () => {
             <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver pe-4 text-xs">
               <FaGithub />
               <Link
-                className="text-xs text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-emerald"
+                className="text-xs text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
                 href="https://github.com/daoodaba975/www"
                 target="_blank"
               >
