@@ -11,7 +11,7 @@ type Article = {
 
 const formatDate = (dateString: string) => {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US");
+  return date.toLocaleDateString("en-UK");
 };
 
 const ArticlesSection = ({ articles }: { articles: Article[] }) => {
@@ -40,7 +40,7 @@ const ArticlesSection = ({ articles }: { articles: Article[] }) => {
                 {formatDate(article.date)}
               </p>
               <Link
-                className="font-medium text-base text-eigengrau dark:text-snow hover:underline"
+                className="font-medium text-base text-night hover:text-gayvin dark:text-snow dark:hover:text-silver underline decoration-2 underline-offset-2 decoration-celtic hover:decoration-pacific"
                 href={`/articles/${article.slug}`}
               >
                 {article.title}

@@ -11,7 +11,7 @@ type Article = {
 
 const formatDate = (dateString: string) => {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
+  return date.toLocaleDateString("en-UK", {
     year: "numeric",
     month: "short",
     day: "numeric",
@@ -41,7 +41,7 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
     );
   }
 
-  // guarantee deterministic "latest"
+  // Latest
   const [latest] = [...articles].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
@@ -70,7 +70,7 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
               {formatDate(latest.date)}
             </p>
             <Link
-              className="font-medium text-base text-eigengrau dark:text-snow hover:underline"
+              className="font-medium text-base text-night hover:text-gayvin dark:text-snow dark:hover:text-silver underline decoration-2 underline-offset-2 decoration-celtic hover:decoration-pacific"
               href={`/articles/${latest.slug}`}
             >
               {latest.title}
