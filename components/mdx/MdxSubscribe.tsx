@@ -127,7 +127,7 @@ const MdxSubscribe = () => {
               <button
                 type="button"
                 onClick={handleCloseModal}
-                className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-eigengrau dark:hover:text-eigengrau focus:outline-none focus:bg-celtic"
+                className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-gayvin dark:hover:text-eigengrau focus:outline-none focus:bg-celtic"
               >
                 Close
               </button>
