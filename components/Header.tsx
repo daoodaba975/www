@@ -24,7 +24,7 @@ function Header(props: Readonly<HeaderProps>) {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1738362865/daooda/share/share_qazggv.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1750992429/daooda/share/og_share.png"
         />
         <meta property="og:title" content="Daouda BA" />
         <meta property="og:description" content={contentText} />
@@ -38,7 +38,7 @@ function Header(props: Readonly<HeaderProps>) {
         <meta name="twitter:description" content={contentText} />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1738362865/daooda/share/share_qazggv.png"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1750992429/daooda/share/og_share.png"
         />
       </Head>
       {/* Beam Analytics */}
