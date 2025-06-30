@@ -29,10 +29,10 @@ const SparkleText = () => {
     <>
       <p className="text-xl font-medium">
         <span className="inline-block magic bg-celtic bg-clip-text text-transparent relative">
-          <span className="text-celtic dark:text-emerald">Daouda BA</span>
+          <span className="text-night dark:text-silver">Daouda BA</span>
 
-          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-emerald dark:text-celtic" />
-          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-emerald dark:text-celtic" />
+          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
+          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
         </span>
       </p>
     </>

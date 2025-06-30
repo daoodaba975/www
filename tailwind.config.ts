@@ -13,11 +13,10 @@ const config: Config = {
       silver: "#D2D7DF",
       celtic: "#0953BC",
       pacific: "#85C4FE",
-      emerald: "#49D49D",
-      mint: "#9CE8C9",
       eigengrau: "#16161D",
       night: "#101113",
-      red: "#E54B4B",
+      gayvin: "#2c2c2c",
+      lico: "#dfe5ec",
     },
     extend: {
       keyframes: {

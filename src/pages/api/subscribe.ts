@@ -1,46 +1,53 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { Client } from "pg";
+import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === "POST") {
-    const { email } = req.body;
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Unauthorized method." });
+  }
 
-    if (!email) {
-      return res.status(400).json({ error: "Email is required" });
-    }
+  const { email } = req.body;
 
-    try {
-      const client = new Client({
-        connectionString: process.env.NEON_DATABASE_URL,
-      });
+  if (
+    !email ||
+    typeof email !== "string" ||
+    !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+  ) {
+    return res.status(400).json({ error: "Invalid email address." });
+  }
 
-      await client.connect();
+  try {
+    const response = await fetch(
+      "https://api.buttondown.email/v1/subscribers",
+      {
+        method: "POST",
+        headers: {
+          Authorization: `Token ${process.env.BUTTONDOWN_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email_address: email }),
+      }
+    );
 
-      const result = await client.query(
-        "SELECT * FROM subscribers WHERE email = $1",
-        [email]
-      );
+    const result = await response.json();
 
-      if (result.rows.length > 0) {
-        await client.end();
-        return res.status(400).json({ error: "Email already subscribed !" });
+    if (!response.ok) {
+      let errorMessage = "Error during registration.";
+
+      if (Array.isArray(result.detail)) {
+        errorMessage = result.detail[0]?.msg || errorMessage;
+      } else if (typeof result.detail === "string") {
+        errorMessage = result.detail;
       }
 
-      await client.query("INSERT INTO subscribers (email) VALUES ($1)", [
-        email,
-      ]);
-
-      await client.end();
-
-      res.status(200).json({ message: "Subscription successful !" });
-    } catch (error) {
-      console.error("Database error:", error);
-      res.status(500).json({ error: "Internal server error !" });
+      return res.status(500).json({ error: errorMessage });
     }
-  } else {
-    res.status(405).json({ error: "Method not allowed" });
+
+    return res.status(200).json({ message: "Successful registration." });
+  } catch (error) {
+    console.error("Server error : ", error);
+    return res.status(500).json({ error: "Connection error." });
   }
 }
