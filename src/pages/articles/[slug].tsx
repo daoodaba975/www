@@ -23,6 +23,21 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
       <Head>
         <title>{String(meta?.title || "Article") + " | Writings"}</title>
         <meta name="description" content={String(meta?.description || "")} />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:url"
+          content={`https://daooda.dev/articles/${meta.slug}`}
+        />
+        <meta property="og:image" content={`https://daooda.dev${meta.image}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta
+          name="twitter:image"
+          content={`https://daooda.dev${meta.image}`}
+        />
       </Head>
 
       <article className="max-w-3xl mx-auto px-4 py-10 prose dark:prose-invert text-night dark:text-silver">
