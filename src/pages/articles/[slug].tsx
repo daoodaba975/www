@@ -18,6 +18,8 @@ interface ArticlePageProps {
 }
 
 export default function ArticlePage({ source, meta }: ArticlePageProps) {
+  const absoluteImageUrl = `https://daooda.dev${meta.image}`;
+
   return (
     <>
       <Head>
@@ -30,14 +32,11 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
           property="og:url"
           content={`https://daooda.dev/articles/${meta.slug}`}
         />
-        <meta property="og:image" content={`https://daooda.dev${meta.image}`} />
+        <meta property="og:image" content={absoluteImageUrl} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta
-          name="twitter:image"
-          content={`https://daooda.dev${meta.image}`}
-        />
+        <meta name="twitter:image" content={absoluteImageUrl} />
       </Head>
 
       <article className="max-w-3xl mx-auto px-4 py-10 prose dark:prose-invert text-night dark:text-silver">
