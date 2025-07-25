@@ -10,6 +10,7 @@ function Header(props: Readonly<HeaderProps>) {
   return (
     <>
       <Head>
+        {/* HTML Meta Tags */}
         <title>{props.header}</title>
         <meta name="description" content={contentText} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,12 +23,12 @@ function Header(props: Readonly<HeaderProps>) {
         {/* OG Meta Tags */}
         <meta property="og:url" content="https://daooda.dev" />
         <meta property="og:type" content="website" />
+        <meta property="og:title" content="Daouda BA" />
+        <meta property="og:description" content={contentText} />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/degyjrpjj/image/upload/v1750992429/daooda/share/og_share.png"
         />
-        <meta property="og:title" content="Daouda BA" />
-        <meta property="og:description" content={contentText} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         {/* Twitter Meta Tags */}

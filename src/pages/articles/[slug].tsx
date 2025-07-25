@@ -21,8 +21,36 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
   return (
     <>
       <Head>
+        {/* HTML Meta Tags */}
         <title>{String(meta?.title || "Article") + " | Writings"}</title>
         <meta name="description" content={String(meta?.description || "")} />
+        {/* OG Meta Tags */}
+        <meta
+          property="og:url"
+          content={`https://daooda.dev/articles/${meta.slug}`}
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={meta.title} />
+        <meta property="og:description" content={meta.description} />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1750992429/daooda/share/og_share.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="daooda.dev" />
+        <meta
+          property="twitter:url"
+          content={`https://daooda.dev/articles/${meta.slug}`}
+        ></meta>
+        <meta name="twitter:title" content={meta.title} />
+        <meta name="twitter:description" content={meta.description} />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/degyjrpjj/image/upload/v1750992429/daooda/share/og_share.png"
+        />
       </Head>
 
       <article className="max-w-3xl mx-auto px-4 py-10 prose dark:prose-invert text-night dark:text-silver">
