@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 import SparkleText from "./SparkleText";
@@ -99,6 +99,16 @@ const Readme = () => {
               target="_blank"
             >
               @in/daoodaba975
+            </Link>
+          </li>
+          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
+            <FaMedium />
+            <Link
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              href="https://medium.com/@daoodaba975"
+              target="_blank"
+            >
+              @daoodaba975
             </Link>
           </li>
         </ul>
