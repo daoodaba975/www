@@ -1,0 +1,118 @@
+---
+title: "Rebuilding My Portfolio from Scratch"
+description: "What I learned rebuilding my portfolio from scratch."
+date: "2025-07-28"
+tags: ["portfolio", "blog", "nextjs", "tailwindcss", "typescript"]
+image: "/blog/01.rebuilding_my_portfolio/cover.webp"
+---
+
+# Rebuilding My Portfolio from Scratch
+
+<MdxImage
+  src="/blog/01.rebuilding_my_portfolio/cover.webp"
+  alt="Cover"
+  width={960}
+  height={540}
+/>
+
+About a year ago, I <MdxLink href="https://github.com/daoodaba975/www/pull/39" name="decided" /> to rebuild my portfolio from scratch.
+
+Why? Because the one I had felt too “standard”, and the technology behind it (<MdxLink href="https://nuxt.com" name="NuxtJS" />) no longer resonated with me.
+
+<br />
+Over time, I’ve grown as a developer. I’ve discovered new tools, sharpened my product/design
+sense… And most importantly, I wanted a personal space that reflected that growth.
+
+## Starting from zero
+
+Instead of modifying my old project, I chose to start fresh with a blank slate, this time with a clearer vision and stronger foundations.
+
+<br />
+My goals were simple :
+
+<MdxList
+  items={[
+    { label: "- Modern up-to-date tech stack" },
+    { label: "- Minimal simple, effective design" },
+    { label: "- Maintainable easy to update or expand" },
+    { label: "- And most of all… enjoyable to write on!" },
+  ]}
+/>
+
+## Tech choices
+
+Here are the main tools I used to build this new portfolio :
+
+<MdxLink href="https://nextjs.org" name="Next.js" /> : powerful framework for static
+rendering, performance & SEO.
+
+<MdxLink href="https://www.typescriptlang.org" name="TypeScript" /> : to write safer,
+more readable code.
+
+<MdxLink href="https://tailwindcss.com" name="Tailwind CSS" /> : for rapid, consistent,
+and responsive UI styling.
+
+Modular structure, every section is a separate component (career/, projects/, writings/, etc.), making it easier to edit without breaking things.
+
+## A blog powered by MDX
+
+This time, I also added a proper blog section, directly integrated into the site.
+
+To be honest, this is the part that took the most time, I tested several solutions (<MdxLink href="https://contentlayer.dev" name="Contentlayer" />, <MdxLink href="https://www.sanity.io" name="Sanity" />, <MdxLink href="https://payloadcms.com" name="Payload" />…) before finally settling on MDX.
+The Markdown + React component combo gave me exactly what I needed : the simplicity of Markdown, with the power and flexibility of custom components (like styled headings, images, and links).
+
+<br />
+Articles are written in English on my site, and in French on my Medium page, a nice
+balance between international reach and local connection.
+
+## A lightweight newsletter
+
+I also added a simple newsletter using <MdxLink href="https://buttondown.com" name="Buttondown" />.
+
+It’s lightweight, and gives me a clean subscription form, success/error feedback for users and a straightforward API I can connect to (/api/subscribe).
+
+<br />
+The plan : 1 article per month, and a newsletter for each new post.
+
+## Design & UX
+
+The site focuses on a clean and smooth user experience :
+
+<MdxList
+  items={[
+    { label: "- Automatic or manual dark mode" },
+    { label: "- Accessible and fluid navigation" },
+    { label: "- Styled, reusable components" },
+    { label: "- A strong focus on readability (spacing, contrast, rhythm…)" },
+  ]}
+/>
+
+## What I learned
+
+Rebuilding from scratch reminded me of a few important things :
+
+<MdxList
+  items={[
+    { label: "- Keep it simple, it’s often the best strategy" },
+    {
+      label: "- Don’t chase perfection, focus on consistency and improve",
+    },
+    {
+      label: "- Document as you go, it saves time and makes great content 😄",
+    },
+  ]}
+/>
+
+## Final thoughts 🤔
+
+I’m really proud of this fresh start.
+
+My new portfolio feels much more like me, and I’m excited to publish regularly on it again.
+
+<br />
+If you haven’t updated yours in a while, I highly recommend turning it into a personal
+project. Even a small redesign can spark a lot of momentum.
+
+<MdxDivider />
+
+<MdxSubscribe />
