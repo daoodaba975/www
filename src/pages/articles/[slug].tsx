@@ -5,6 +5,7 @@ import { serialize } from "next-mdx-remote/serialize";
 
 import MdxHeading from "@/../../components/mdx/MdxHeading";
 import MdxImage from "@/../../components/mdx/MdxImage";
+import MdxLink from "@/../../components/mdx/MdxLink";
 import MdxList from "@/../../components/mdx/MdxList";
 import MdxListIcon from "@/../../components/mdx/MdxListIcon";
 import MdxDivider from "@/../../components/mdx/MdxDivider";
@@ -66,6 +67,7 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
               h2: (props) => <MdxHeading as="h2" {...props} />,
               h3: (props) => <MdxHeading as="h3" {...props} />,
               MdxImage,
+              MdxLink,
               MdxList,
               MdxListIcon,
               MdxDivider,
