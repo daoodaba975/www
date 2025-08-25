@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaMedium } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import {
+  FaGithub,
+  FaXTwitter,
+  FaLinkedin,
+  FaMedium,
+  FaCalendarCheck,
+} from "react-icons/fa6";
 
 import SparkleText from "./SparkleText";
 import useGitHubFollowers from "@/../hooks/useGitHubFollowers";
@@ -109,6 +114,16 @@ const Readme = () => {
               target="_blank"
             >
               @daoodaba975
+            </Link>
+          </li>
+          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
+            <FaCalendarCheck />
+            <Link
+              className="text-[13px] text-eigengrau hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              href="https://cal.com/daooda"
+              target="_blank"
+            >
+              Let&apos;s talk!
             </Link>
           </li>
         </ul>
