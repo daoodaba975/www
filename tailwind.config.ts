@@ -12,7 +12,7 @@ const config: Config = {
       snow: "#EBF2FA",
       silver: "#D2D7DF",
       celtic: "#0953BC",
-      pacific: "#85C4FE",
+      pacific: "#053270",
       eigengrau: "#16161D",
       night: "#101113",
       gayvin: "#2c2c2c",
