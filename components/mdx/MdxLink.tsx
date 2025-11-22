@@ -8,7 +8,7 @@ interface MdxLinkProps {
 export default function MdxLink({ href, name }: MdxLinkProps) {
   return (
     <Link
-      className="font-semibold text-celtic underline dark:text-pacific"
+      className="font-semibold text-celtic underline"
       href={href}
       target="_blank"
     >
