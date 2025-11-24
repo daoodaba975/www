@@ -75,7 +75,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaGithub />
             <Link
-              className="text-[13px] text-eigengrau underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              className="text-[13px] text-eigengrau underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
               href="https://github.com/daoodaba975"
               target="_blank"
             >
@@ -89,7 +89,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaXTwitter />
             <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
               href="https://x.com/daoodaba975"
               target="_blank"
             >
@@ -99,7 +99,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaLinkedin />
             <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
               href="https://www.linkedin.com/in/daoodaba975"
               target="_blank"
             >
@@ -109,7 +109,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaMedium />
             <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
               href="https://medium.com/@daoodaba975"
               target="_blank"
             >
@@ -119,7 +119,7 @@ const Readme = () => {
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
             <FaCalendarCheck />
             <Link
-              className="text-[13px] text-eigengrau hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-pacific"
+              className="text-[13px] text-eigengrau hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
               href="https://cal.com/daooda"
               target="_blank"
             >

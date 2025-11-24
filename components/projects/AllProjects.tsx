@@ -74,7 +74,7 @@ const AllProjects = () => {
                 {project.description}
               </p>
               <Link
-                className="w-full mt-2 sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-eigengrau dark:hover:text-eigengrau focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
+                className="w-full mt-2 sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-lico dark:hover:text-lico focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
                 href={project.url || `https://github.com/${project.repo}`}
                 target="_blank"
               >
@@ -91,7 +91,7 @@ const AllProjects = () => {
           coffee 🤝🏾
         </p>
         <Link
-          className="w-full mt-2 sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-eigengrau dark:hover:text-eigengrau focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
+          className="w-full mt-2 sm:w-auto whitespace-nowrap py-2 px-2.5 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-md border-transparent bg-celtic text-snow hover:bg-pacific dark:text-snow hover:text-lico dark:hover:text-lico focus:outline-none focus:bg-celtic disabled:opacity-50 disabled:pointer-events-none"
           href="https://buymeacoffee.com/daoodaba975"
           target="_blank"
         >
