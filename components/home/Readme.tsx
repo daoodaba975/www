@@ -9,13 +9,8 @@ import {
 } from "react-icons/fa6";
 
 import SparkleText from "./SparkleText";
-import useGitHubFollowers from "@/../hooks/useGitHubFollowers";
 
 const Readme = () => {
-  const username = "daoodaba975";
-  const GITHUB_TOKEN = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
-  const token = GITHUB_TOKEN || "";
-  const followers = useGitHubFollowers(username, token);
 
   return (
     <main>
@@ -79,11 +74,7 @@ const Readme = () => {
               href="https://github.com/daoodaba975"
               target="_blank"
             >
-              {followers !== null ? (
-                <p>{followers} followers</p>
-              ) : (
-                <p>Loading...</p>
-              )}
+              @daoodaba975
             </Link>
           </li>
           <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
