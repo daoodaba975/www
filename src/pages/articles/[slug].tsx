@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
+import { IoArrowBack } from "react-icons/io5";
 
 import MdxHeading from "@/../../components/mdx/MdxHeading";
 import MdxImage from "@/../../components/mdx/MdxImage";
@@ -10,6 +12,8 @@ import MdxList from "@/../../components/mdx/MdxList";
 import MdxListIcon from "@/../../components/mdx/MdxListIcon";
 import MdxDivider from "@/../../components/mdx/MdxDivider";
 import MdxSubscribe from "@/../../components/mdx/MdxSubscribe";
+import MdxCode from "@/../../components/mdx/MdxCode";
+import ScrollProgress from "@/../../components/ScrollProgress";
 
 import { getAllArticles, getArticleBySlug, ArticleMeta } from "@/../lib/mdx";
 
@@ -54,6 +58,16 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
         />
       </Head>
 
+      <ScrollProgress />
+
+      <Link
+        href="/writings"
+        className="md:hidden flex items-center gap-1.5 px-4 pt-6 text-sm text-celtic hover:text-pacific transition-colors"
+      >
+        <IoArrowBack className="w-4 h-4" />
+        <span>Writings</span>
+      </Link>
+
       <article className="max-w-3xl mx-auto px-4 py-10 prose dark:prose-invert text-night dark:text-silver">
         <h1>{meta.title}</h1>
         <p className="text-sm text-gray-500">
@@ -72,6 +86,7 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
               MdxListIcon,
               MdxDivider,
               MdxSubscribe,
+              MdxCode,
             }}
           />
         </>
