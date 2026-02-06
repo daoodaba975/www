@@ -1,5 +1,27 @@
 import Image from "next/image";
 
+const mainStack = [
+  { src: "/img/stacks/react.webp", label: "React" },
+  { src: "/img/stacks/nextjs.webp", label: "Next" },
+  { src: "/img/stacks/tailwindcss.webp", label: "Tailwind" },
+  { src: "/img/stacks/flutter.webp", label: "Flutter" },
+  { src: "/img/stacks/elysiajs.webp", label: "Elysia" },
+  { src: "/img/stacks/golang.webp", label: "Go" },
+  { src: "/img/stacks/postgresql.webp", label: "PostgreSQL" },
+  {
+    src: "/img/stacks/drizzle_light.webp",
+    srcDark: "/img/stacks/drizzle_dark.webp",
+    label: "Drizzle",
+  },
+  {
+    src: "/img/stacks/better_auth_light.webp",
+    srcDark: "/img/stacks/better_auth_dark.webp",
+    label: "Better Auth",
+  },
+  { src: "/img/stacks/vscode.webp", label: "VS Code" },
+  { src: "/img/stacks/docker.webp", label: "Docker" },
+];
+
 const Stack = () => {
   return (
     <div className="my-10 sm:my-14">
@@ -7,226 +29,43 @@ const Stack = () => {
         📦 Stacks.
       </h2>
 
-      <div className="space-y-3">
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
+      <div className="flex flex-wrap gap-3 mb-6">
+        {mainStack.map(({ src, srcDark, label }) => (
+          <div
+            key={label}
+            className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-lico/50 dark:border-eigengrau/40 bg-snow/40 dark:bg-eigengrau/20 hover:border-celtic/20 dark:hover:border-celtic/20 transition-colors cursor-default"
+          >
+            {srcDark ? (
+              <>
                 <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/react.webp"
-                  alt="React"
-                  width={34}
-                  height={34}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/nextjs.webp"
-                  alt="Next"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[45px] h-auto"
-                  src="/img/stacks/tailwind.webp"
-                  alt="Tailwind"
-                  width={36}
-                  height={36}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[30px] h-auto"
-                  src="/img/stacks/flutter.webp"
-                  alt="Flutter"
-                  width={28}
-                  height={28}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[85px] h-auto"
-                  src="/img/stacks/golang.webp"
-                  alt="Go"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/rails.webp"
-                  alt="Rails"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/vscode.webp"
-                  alt="VS Code"
-                  width={32}
-                  height={32}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/postgresql.webp"
-                  alt="PosgreSQL"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/neon.webp"
-                  alt="Neon"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[34px] h-auto block dark:hidden"
-                  src="/img/stacks/prisma_light.webp"
-                  alt="Prisma"
-                  width={30}
-                  height={30}
+                  className="w-4 h-4 block dark:hidden"
+                  src={src}
+                  alt={label}
+                  width={16}
+                  height={16}
                 />
                 <Image
-                  className="shrink-0 me-1 w-[34px] h-auto hidden dark:block"
-                  src="/img/stacks/prisma_dark.webp"
-                  alt="Prisma"
-                  width={30}
-                  height={30}
+                  className="w-4 h-4 hidden dark:block"
+                  src={srcDark}
+                  alt={label}
+                  width={16}
+                  height={16}
                 />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/pocketbase.webp"
-                  alt="Pocketbase"
-                  width={32}
-                  height={32}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/graphql.webp"
-                  alt="GraphQL"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[32px] h-auto"
-                  src="/img/stacks/cucumber.webp"
-                  alt="Cucumber"
-                  width={30}
-                  height={30}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[40px] h-auto"
-                  src="/img/stacks/playwright.webp"
-                  alt="Playwright"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[40px] h-auto"
-                  src="/img/stacks/netlify.webp"
-                  alt="Netlify"
-                  width={30}
-                  height={30}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[26px] h-auto"
-                  src="/img/stacks/figma.webp"
-                  alt="Figma"
-                  width={24}
-                  height={24}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[36px] h-auto"
-                  src="/img/stacks/docker.webp"
-                  alt="Docker"
-                  width={32}
-                  height={32}
-                />
-              </li>
-              <li className="me-1 mx-2 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                <Image
-                  className="shrink-0 me-1 w-[38px] h-auto"
-                  src="/img/stacks/npm.webp"
-                  alt="NPM"
-                  width={32}
-                  height={32}
-                />
-              </li>
-            </ul>
-          </dd>
-        </dl>
-
-        <dl className="flex flex-col sm:flex-row gap-1">
-          <dd>
-            <ul>
-              <li className="me-1 after:content-[','] inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                Web Development
-              </li>
-              <li className="me-1 inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                Mobile Apps
-              </li>
-              <li className="me-1 after:content-['.'] inline-flex items-center text-sm text-eigengrau dark:text-snow">
-                & Testing
-              </li>
-            </ul>
-          </dd>
-        </dl>
+              </>
+            ) : (
+              <Image
+                className="w-4 h-4"
+                src={src}
+                alt={label}
+                width={16}
+                height={16}
+              />
+            )}
+            <span className="text-xs font-medium text-eigengrau dark:text-silver">
+              {label}
+            </span>
+          </div>
+        ))}
       </div>
     </div>
   );

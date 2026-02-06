@@ -5,7 +5,6 @@ import {
   FaXTwitter,
   FaLinkedin,
   FaMedium,
-  FaCalendarCheck,
 } from "react-icons/fa6";
 
 import SparkleText from "./SparkleText";
@@ -66,58 +65,40 @@ const Readme = () => {
           building innovative solution 🚀
         </p>
 
-        <ul className="mt-5 flex flex-col gap-y-3">
-          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
-            <FaGithub />
-            <Link
-              className="text-[13px] text-eigengrau underline-none hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
-              href="https://github.com/daoodaba975"
-              target="_blank"
-            >
-              @daoodaba975
-            </Link>
-          </li>
-          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
-            <FaXTwitter />
-            <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
-              href="https://x.com/daoodaba975"
-              target="_blank"
-            >
-              @daoodaba975
-            </Link>
-          </li>
-          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
-            <FaLinkedin />
-            <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
-              href="https://www.linkedin.com/in/daoodaba975"
-              target="_blank"
-            >
-              @in/daoodaba975
-            </Link>
-          </li>
-          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
-            <FaMedium />
-            <Link
-              className="text-[13px] text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
-              href="https://medium.com/@daoodaba975"
-              target="_blank"
-            >
-              @daoodaba975
-            </Link>
-          </li>
-          <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver">
-            <FaCalendarCheck />
-            <Link
-              className="text-[13px] text-eigengrau hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
-              href="https://cal.com/daooda"
-              target="_blank"
-            >
-              Let&apos;s talk!
-            </Link>
-          </li>
-        </ul>
+        <div className="mt-5 flex items-center gap-x-5 px-4 py-3 rounded-full bg-silver/30 dark:bg-eigengrau/50 border border-lico/40 dark:border-eigengrau/40 w-fit">
+          <Link
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
+            href="https://x.com/daoodaba975"
+            target="_blank"
+            aria-label="X"
+          >
+            <FaXTwitter className="w-5 h-5" />
+          </Link>
+          <Link
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
+            href="https://github.com/daoodaba975"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <FaGithub className="w-5 h-5" />
+          </Link>
+          <Link
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-[#0A66C2] transition-colors"
+            href="https://www.linkedin.com/in/daoodaba975"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin className="w-5 h-5" />
+          </Link>
+          <Link
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
+            href="https://medium.com/@daoodaba975"
+            target="_blank"
+            aria-label="Medium"
+          >
+            <FaMedium className="w-5 h-5" />
+          </Link>
+        </div>
       </div>
     </main>
   );
