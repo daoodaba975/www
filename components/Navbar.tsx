@@ -16,8 +16,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <nav className="mt-4 relative max-w-2xl w-full border border-lico dark:border-eigengrau rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto">
+    <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm">
+      <nav className="mt-4 relative max-w-2xl w-full border border-lico dark:border-eigengrau rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-4 md:mx-auto backdrop-blur-lg bg-snow/70 dark:bg-night/70">
         <div className="px-4 md:px-0 flex justify-between items-center">
           <div>
             <Link
@@ -33,7 +33,8 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center gap-2">
+            <DarkModeToggle />
             <button
               type="button"
               className="flex justify-center items-center size-6 border border-lico text-eigengrau rounded-full focus:outline-none focus:bg-silver dark:border-eigengrau dark:text-snow dark:hover:bg-silver dark:focus:bg-eigengrau"
@@ -103,7 +104,7 @@ const Navbar = () => {
             >
               /writings
             </Link>
-            <span className="flex items-center">
+            <span className="hidden md:flex items-center">
               <DarkModeToggle />
             </span>
           </div>
