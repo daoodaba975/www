@@ -5,6 +5,7 @@ import {
   FaXTwitter,
   FaLinkedin,
   FaMedium,
+  FaCalendarDays,
 } from "react-icons/fa6";
 
 import SparkleText from "./SparkleText";
@@ -83,7 +84,7 @@ const Readme = () => {
             <FaGithub className="w-5 h-5" />
           </Link>
           <Link
-            className="text-eigengrau/70 dark:text-silver/70 hover:text-[#0A66C2] transition-colors"
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-[#0A66C2] dark:hover:text-snow transition-colors"
             href="https://www.linkedin.com/in/daoodaba975"
             target="_blank"
             aria-label="LinkedIn"
@@ -97,6 +98,14 @@ const Readme = () => {
             aria-label="Medium"
           >
             <FaMedium className="w-5 h-5" />
+          </Link>
+          <Link
+            className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
+            href="https://cal.com/daooda"
+            target="_blank"
+            aria-label="Cal"
+          >
+            <FaCalendarDays className="w-5 h-5" />
           </Link>
         </div>
       </div>
