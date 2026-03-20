@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
+import { GithubLogo } from "@phosphor-icons/react";
 
 import Emoji from "./Emoji";
 
@@ -16,7 +16,7 @@ const Footer = () => {
 
           <ul className="flex flex-wrap items-center">
             <li className="flex items-center gap-x-2.5 text-eigengrau dark:text-silver pe-4 text-xs">
-              <FaGithub />
+              <GithubLogo />
               <Link
                 className="text-xs text-eigengrau underline hover:text-celtic hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-snow dark:hover:text-celtic"
                 href="https://github.com/daoodaba975/www"

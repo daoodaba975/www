@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const mainStack = [
   { src: "/img/stacks/react.webp", label: "React" },
@@ -30,9 +31,12 @@ const Stack = () => {
       </h2>
 
       <div className="flex flex-wrap gap-3 mb-6">
-        {mainStack.map(({ src, srcDark, label }) => (
-          <div
+        {mainStack.map(({ src, srcDark, label }, index) => (
+          <motion.div
             key={label}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: index * 0.05, ease: "easeOut" }}
             className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-lico/50 dark:border-eigengrau/40 bg-snow/40 dark:bg-eigengrau/20 hover:border-celtic/20 dark:hover:border-celtic/20 transition-colors cursor-default"
           >
             {srcDark ? (
@@ -64,7 +68,7 @@ const Stack = () => {
             <span className="text-xs font-medium text-eigengrau dark:text-silver">
               {label}
             </span>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

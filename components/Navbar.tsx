@@ -2,7 +2,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { IoMenu, IoClose } from "react-icons/io5";
+import { List, X } from "@phosphor-icons/react";
 
 import DarkModeToggle from "./DarkModeToggle";
 import { HomePath, CareerPath, ProjectsPath, WritingsPath } from "@/../routes";
@@ -45,11 +45,11 @@ const Navbar = () => {
             >
               {menuOpen ? (
                 <span className="shrink-0 size-4">
-                  <IoClose />
+                  <X />
                 </span>
               ) : (
                 <span className="shrink-0 size-3.5">
-                  <IoMenu />
+                  <List />
                 </span>
               )}
             </button>

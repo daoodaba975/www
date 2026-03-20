@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { PiMoonStarsFill, PiSunFill } from "react-icons/pi";
+import { MoonStars, Sun } from "@phosphor-icons/react";
 
 const DarkModeToggle: React.FC = () => {
   const [theme, setTheme] = useState<string>("light");
@@ -40,7 +40,7 @@ const DarkModeToggle: React.FC = () => {
         data-hs-theme-click-value="dark"
       >
         <span className="group inline-flex shrink-0 justify-center items-center size-9">
-          <PiMoonStarsFill />
+          <MoonStars weight="fill" />
         </span>
       </button>
       <button
@@ -52,7 +52,7 @@ const DarkModeToggle: React.FC = () => {
         data-hs-theme-click-value="light"
       >
         <span className="group inline-flex shrink-0 justify-center items-center size-9">
-          <PiSunFill />
+          <Sun weight="fill" />
         </span>
       </button>
     </div>

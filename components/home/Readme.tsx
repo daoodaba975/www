@@ -1,19 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import {
-  FaGithub,
-  FaXTwitter,
-  FaLinkedin,
-  FaMedium,
-  FaCalendarDays,
-} from "react-icons/fa6";
+  GithubLogo,
+  XLogo,
+  LinkedinLogo,
+  MediumLogo,
+  CalendarDots,
+} from "@phosphor-icons/react";
 
 import SparkleText from "./SparkleText";
 
 const Readme = () => {
 
   return (
-    <main>
+    <motion.main
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    >
       <div className="flex items-center gap-x-3">
         <div className="shrink-0">
           <Image
@@ -73,7 +78,7 @@ const Readme = () => {
             target="_blank"
             aria-label="X"
           >
-            <FaXTwitter className="w-5 h-5" />
+            <XLogo className="w-5 h-5" />
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
@@ -81,7 +86,7 @@ const Readme = () => {
             target="_blank"
             aria-label="GitHub"
           >
-            <FaGithub className="w-5 h-5" />
+            <GithubLogo className="w-5 h-5" />
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-[#0A66C2] dark:hover:text-snow transition-colors"
@@ -89,7 +94,7 @@ const Readme = () => {
             target="_blank"
             aria-label="LinkedIn"
           >
-            <FaLinkedin className="w-5 h-5" />
+            <LinkedinLogo className="w-5 h-5" />
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
@@ -97,7 +102,7 @@ const Readme = () => {
             target="_blank"
             aria-label="Medium"
           >
-            <FaMedium className="w-5 h-5" />
+            <MediumLogo className="w-5 h-5" />
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
@@ -105,11 +110,11 @@ const Readme = () => {
             target="_blank"
             aria-label="Cal"
           >
-            <FaCalendarDays className="w-5 h-5" />
+            <CalendarDots className="w-5 h-5" />
           </Link>
         </div>
       </div>
-    </main>
+    </motion.main>
   );
 };
 

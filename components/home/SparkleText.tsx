@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { PiStarFourFill } from "react-icons/pi";
+import { StarFour } from "@phosphor-icons/react";
 
 const SparkleText = () => {
   useEffect(() => {
@@ -31,8 +31,8 @@ const SparkleText = () => {
         <span className="inline-block magic bg-celtic bg-clip-text text-transparent relative">
           <span className="text-night dark:text-silver">Daouda BA</span>
 
-          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
-          <PiStarFourFill className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
+          <StarFour weight="fill" className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
+          <StarFour weight="fill" className="magic-star [--size:clamp(20px,1.5vw,30px)] block h-[--size] w-[--size] top-[--star-top] left-[--star-left] absolute animate-starScale text-celtic" />
         </span>
       </p>
     </>
