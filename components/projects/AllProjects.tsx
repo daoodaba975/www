@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
+import { GithubLogo } from "@phosphor-icons/react";
 
 import { projects } from "@/../data/project";
 
@@ -46,7 +46,7 @@ const AllProjects = () => {
                 href={project.url || `https://github.com/${project.repo}`}
                 target="_blank"
               >
-                View on <FaGithub />
+                View on <GithubLogo />
               </Link>
             </div>
           </div>

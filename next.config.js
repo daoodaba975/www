@@ -1,11 +1,8 @@
-const withMDX = require("@next/mdx")({
-  extension: /\.mdx?$/,
-});
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ["ts", "tsx", "md", "mdx"],
+  pageExtensions: ["ts", "tsx"],
   reactStrictMode: true,
+  transpilePackages: ["@phosphor-icons/react"],
 };
 
-module.exports = withMDX(nextConfig);
+module.exports = nextConfig;

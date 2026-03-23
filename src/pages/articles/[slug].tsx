@@ -3,7 +3,7 @@ import Link from "next/link";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
-import { IoArrowBack } from "react-icons/io5";
+import { ArrowLeft } from "@phosphor-icons/react";
 
 import MdxHeading from "@/../../components/mdx/MdxHeading";
 import MdxImage from "@/../../components/mdx/MdxImage";
@@ -64,7 +64,7 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
         href="/writings"
         className="md:hidden flex items-center gap-1.5 px-4 pt-6 text-sm text-celtic hover:text-pacific transition-colors"
       >
-        <IoArrowBack className="w-4 h-4" />
+        <ArrowLeft className="w-4 h-4" />
         <span>Writings</span>
       </Link>
 

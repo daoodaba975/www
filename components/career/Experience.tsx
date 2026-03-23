@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MdOutlineWorkOutline } from "react-icons/md";
+import { Briefcase } from "@phosphor-icons/react";
 
 const Experience = () => {
   return (
@@ -124,7 +124,7 @@ const Experience = () => {
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px] after:bg-silver dark:after:bg-gayvin">
             <div className="relative z-10 size-6 flex justify-center items-center text-eigengrau dark:text-snow">
-              <MdOutlineWorkOutline />
+              <Briefcase />
             </div>
           </div>
           <div className="grow pb-8 group-last:pb-0">
@@ -140,7 +140,7 @@ const Experience = () => {
         <div className="group relative flex gap-x-5">
           <div className="relative group-last:after:hidden after:absolute after:top-8 after:bottom-2 after:start-3 after:w-px after:-translate-x-[0.5px]">
             <div className="relative z-10 size-6 flex justify-center items-center text-eigengrau dark:text-snow">
-              <MdOutlineWorkOutline />
+              <Briefcase />
             </div>
           </div>
           <div className="grow pb-8 group-last:pb-0">

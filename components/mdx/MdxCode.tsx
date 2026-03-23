@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { IoCopyOutline, IoCheckmark } from "react-icons/io5";
+import { Copy, Check } from "@phosphor-icons/react";
 import { Highlight, themes, type Language } from "prism-react-renderer";
 
 interface MdxCodeProps {
@@ -53,12 +53,12 @@ export default function MdxCode({ code, lang }: MdxCodeProps) {
         >
           {copied ? (
             <>
-              <IoCheckmark className="w-3.5 h-3.5 text-celtic" />
+              <Check className="w-3.5 h-3.5 text-celtic" />
               <span className="text-celtic">Copied</span>
             </>
           ) : (
             <>
-              <IoCopyOutline className="w-3.5 h-3.5" />
+              <Copy className="w-3.5 h-3.5" />
               <span>Copy</span>
             </>
           )}

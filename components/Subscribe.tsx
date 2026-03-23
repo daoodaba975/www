@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
-import { IoIosArrowForward, IoMdClose } from "react-icons/io";
-import { LuMailbox } from "react-icons/lu";
+import { ArrowRight, X, Mailbox } from "@phosphor-icons/react";
 
 const Subscribe = () => {
   const [showModal, setShowModal] = useState(false);
@@ -62,7 +61,7 @@ const Subscribe = () => {
               Email
             </label>
             <div className="absolute text-eigengrau dark:text-silver inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-3">
-              <LuMailbox />
+              <Mailbox />
             </div>
             <input
               type="email"
@@ -85,7 +84,7 @@ const Subscribe = () => {
             ) : (
               <>
                 Join
-                <IoIosArrowForward />
+                <ArrowRight />
               </>
             )}
           </button>
@@ -117,7 +116,7 @@ const Subscribe = () => {
                 onClick={handleCloseModal}
                 className="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent border-lico dark:border-gayvin bg-snow dark:bg-night text-eigengrau dark:text-snow focus:outline-none focus:bg-silver dark:focus:bg-eigengrau"
               >
-                <IoMdClose />
+                <X />
               </button>
             </div>
             <div className="mt-3 text-eigengrau dark:text-snow">

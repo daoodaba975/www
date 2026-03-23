@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 type Article = {
   slug: string;
@@ -22,8 +23,14 @@ const ArticlesSection = ({ articles }: { articles: Article[] }) => {
       </h2>
 
       <ul className="space-y-10">
-        {articles.map((article) => (
-          <li key={article.slug} className="flex flex-col sm:flex-row gap-5">
+        {articles.map((article, index) => (
+          <motion.li
+            key={article.slug}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: index * 0.08, ease: "easeOut" }}
+            className="flex flex-col sm:flex-row gap-5"
+          >
             {article.image && (
               <div className="w-full sm:w-1/3">
                 <Image
@@ -57,7 +64,7 @@ const ArticlesSection = ({ articles }: { articles: Article[] }) => {
                 </Link>
               </p>
             </div>
-          </li>
+          </motion.li>
         ))}
       </ul>
     </div>
