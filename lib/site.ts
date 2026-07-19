@@ -13,11 +13,18 @@ export function absoluteUrl(pathname: string) {
   return new URL(pathname, SITE_URL).toString();
 }
 
-/** Single date format for the whole site, matching the `en` content. */
+/**
+ * Single date format for the whole site, matching the `en` content.
+ *
+ * Frontmatter dates are plain days ("2026-03-23"), parsed as UTC midnight.
+ * Formatting in the viewer's zone would shift them a day back west of UTC and
+ * disagree with the prerendered HTML, so the zone is pinned.
+ */
 export function formatDate(date: string) {
   return new Date(date).toLocaleDateString("en-GB", {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
