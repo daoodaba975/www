@@ -2,17 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+import { formatDate } from "@/lib/site";
+
 type Article = {
   slug: string;
   title: string;
   description: string;
   date: string;
   image?: string;
-};
-
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-UK");
 };
 
 const ArticlesSection = ({ articles }: { articles: Article[] }) => {

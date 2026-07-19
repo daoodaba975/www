@@ -2,21 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+import { formatDate } from "@/lib/site";
+
 type Article = {
   slug: string;
   title: string;
   description: string;
   date: string;
   image?: string;
-};
-
-const formatDate = (dateString: string) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-UK", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
 };
 
 const LatestWritings = ({ articles }: { articles: Article[] }) => {
@@ -42,10 +35,6 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
     );
   }
 
-  const latestThree = [...articles]
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 3);
-
   return (
     <div className="my-10 sm:my-14">
       <h2 className="mb-5 font-medium text-eigengrau dark:text-snow">
@@ -53,7 +42,7 @@ const LatestWritings = ({ articles }: { articles: Article[] }) => {
       </h2>
 
       <ul className="space-y-8">
-        {latestThree.map((article, index) => (
+        {articles.map((article, index) => (
           <motion.li
             key={article.slug}
             initial={{ opacity: 0, y: 12 }}
