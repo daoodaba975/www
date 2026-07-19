@@ -23,7 +23,7 @@ interface CitySkylineProps {
 const WINDOW_SIZE = 4;
 const WINDOW_GAP = 3;
 const BUILDING_GAP = 2;
-const FLICKER_CHANCE = 0.08;
+const FLICKER_CHANCE = 0.035;
 const MAX_OPACITY = 0.9;
 const MIN_OPACITY = 0.05;
 
@@ -296,7 +296,7 @@ const CitySkyline = ({ className }: CitySkylineProps) => {
     setup();
 
     const animate = (time: number) => {
-      if (time - lastFlickerRef.current > 200) {
+      if (time - lastFlickerRef.current > 500) {
         flicker();
         lastFlickerRef.current = time;
       }

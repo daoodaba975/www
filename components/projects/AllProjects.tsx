@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { GithubLogo } from "@phosphor-icons/react";
 
-import { projects } from "@/../data/project";
+import { projects } from "@/data/project";
 
 interface Project {
   name: string;

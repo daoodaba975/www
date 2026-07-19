@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { List, X } from "@phosphor-icons/react";
 
 import DarkModeToggle from "./DarkModeToggle";
-import { HomePath, CareerPath, ProjectsPath, WritingsPath } from "@/../routes";
+import { HomePath, CareerPath, ProjectsPath, WritingsPath } from "@/routes";
 
 const Navbar = () => {
   const currentPath = usePathname();
