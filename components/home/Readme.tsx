@@ -98,7 +98,7 @@ const Readme = () => {
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
-            href="https://medium.com/@daoodaba"
+            href="https://daoodaba.medium.com"
             target="_blank"
             aria-label="Medium"
           >
