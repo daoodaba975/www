@@ -36,9 +36,16 @@ function parseMeta(
   slug: string,
   filename: string
 ): ArticleMeta {
-  const missing = (["title", "description", "date"] as const).filter(
+  const missing: string[] = (["title", "description"] as const).filter(
     (key) => typeof data[key] !== "string" || !(data[key] as string).trim()
   );
+
+  // YAML parses an unquoted `date: 2026-03-23` into a Date, so accept both.
+  const rawDate = data.date instanceof Date ? data.date : `${data.date ?? ""}`;
+
+  if (!(rawDate instanceof Date) && !rawDate.trim()) {
+    missing.push("date");
+  }
 
   if (missing.length) {
     throw new Error(
@@ -48,13 +55,18 @@ function parseMeta(
     );
   }
 
-  const date = data.date as string;
+  const parsedDate = new Date(rawDate);
 
-  if (Number.isNaN(new Date(date).getTime())) {
+  if (Number.isNaN(parsedDate.getTime())) {
     throw new Error(
-      `Invalid frontmatter in articles/${filename}: date "${date}" is not a valid date.`
+      `Invalid frontmatter in articles/${filename}: date "${String(
+        rawDate
+      )}" is not a valid date.`
     );
   }
+
+  const date =
+    rawDate instanceof Date ? rawDate.toISOString() : (rawDate as string);
 
   return {
     title: data.title as string,
@@ -62,9 +74,8 @@ function parseMeta(
     date,
     slug,
     image: typeof data.image === "string" ? data.image : undefined,
-    tags: Array.isArray(data.tags)
-      ? data.tags.filter((tag): tag is string => typeof tag === "string")
-      : undefined,
+    // Numeric tags such as `tags: [2026]` parse as numbers; keep them.
+    tags: Array.isArray(data.tags) ? data.tags.map(String) : undefined,
   };
 }
 
