@@ -12,7 +12,7 @@ const Education = () => {
       <ul className="list-none grid grid-cols-1 sm:grid-cols-2 gap-3">
         {educations.map((education) => (
           <li
-            key={education.school}
+            key={`${education.school}-${education.start}`}
             className="p-4 border border-lico rounded-lg dark:border-eigengrau"
           >
             <Image

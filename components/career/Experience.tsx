@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Briefcase } from "@phosphor-icons/react";
 
-import { experiences, formatPeriod } from "@/data/career";
+import { experiences, formatMonth } from "@/data/career";
 
 const Experience = () => {
   return (
@@ -24,7 +24,7 @@ const Experience = () => {
                     className="shrink-0 size-6 rounded"
                     width={48}
                     height={48}
-                    alt={`${experience.company} logo`}
+                    alt={`${experience.company ?? experience.context} logo`}
                   />
                 ) : (
                   <Briefcase />
@@ -40,9 +40,24 @@ const Experience = () => {
                   ? `@ ${experience.company} (${experience.context})`
                   : experience.context}{" "}
                 -{" "}
-                <time dateTime={experience.start}>
-                  {formatPeriod(experience)}
-                </time>
+                {experience.end ? (
+                  <>
+                    <time dateTime={experience.start}>
+                      {formatMonth(experience.start)}
+                    </time>{" "}
+                    /{" "}
+                    <time dateTime={experience.end}>
+                      {formatMonth(experience.end)}
+                    </time>
+                  </>
+                ) : (
+                  <>
+                    since{" "}
+                    <time dateTime={experience.start}>
+                      {formatMonth(experience.start)}
+                    </time>
+                  </>
+                )}
               </p>
             </div>
           </li>

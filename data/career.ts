@@ -75,7 +75,7 @@ export const experiences: Experience[] = [
 ];
 
 /** "2026-04" -> "April 2026". */
-function formatMonth(isoMonth: string) {
+export function formatMonth(isoMonth: string) {
   const [year, month] = isoMonth.split("-").map(Number);
 
   return new Date(Date.UTC(year, month - 1, 1)).toLocaleDateString("en-GB", {
@@ -83,13 +83,6 @@ function formatMonth(isoMonth: string) {
     year: "numeric",
     timeZone: "UTC",
   });
-}
-
-/** "since April 2026" for an ongoing role, "February 2022 / May 2026" otherwise. */
-export function formatPeriod({ start, end }: Pick<Experience, "start" | "end">) {
-  return end
-    ? `${formatMonth(start)} / ${formatMonth(end)}`
-    : `since ${formatMonth(start)}`;
 }
 
 export interface Education {
