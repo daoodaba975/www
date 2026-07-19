@@ -31,8 +31,8 @@ export default function ArticlePage({ source, meta }: ArticlePageProps) {
     <>
       <Head>
         {/* HTML Meta Tags */}
-        <title>{String(meta?.title || "Article") + " | Writings"}</title>
-        <meta name="description" content={String(meta?.description || "")} />
+        <title>{`${meta.title} | Writings`}</title>
+        <meta name="description" content={meta.description} />
         <link rel="canonical" href={articleUrl} />
         {/* OG Meta Tags */}
         <meta property="og:url" content={articleUrl} />
