@@ -74,7 +74,7 @@ const Readme = () => {
         <div className="mt-5 flex items-center gap-x-5 px-4 py-3 rounded-full bg-silver/30 dark:bg-eigengrau/50 border border-lico/40 dark:border-eigengrau/40 w-fit">
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
-            href="https://x.com/daoodaba975"
+            href="https://x.com/daoodaba"
             target="_blank"
             aria-label="X"
           >
@@ -90,7 +90,7 @@ const Readme = () => {
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-[#0A66C2] dark:hover:text-snow transition-colors"
-            href="https://www.linkedin.com/in/daoodaba975"
+            href="https://www.linkedin.com/in/daoodaba"
             target="_blank"
             aria-label="LinkedIn"
           >
@@ -98,7 +98,7 @@ const Readme = () => {
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
-            href="https://medium.com/@daoodaba975"
+            href="https://medium.com/@daoodaba"
             target="_blank"
             aria-label="Medium"
           >
@@ -106,7 +106,7 @@ const Readme = () => {
           </Link>
           <Link
             className="text-eigengrau/70 dark:text-silver/70 hover:text-eigengrau dark:hover:text-snow transition-colors"
-            href="https://cal.com/daooda"
+            href="https://cal.com/daoodaba"
             target="_blank"
             aria-label="Cal"
           >
