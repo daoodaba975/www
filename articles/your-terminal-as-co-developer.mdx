@@ -1,0 +1,238 @@
+---
+title: "Your Terminal as Co-Developer"
+description: "AI moved from autocomplete to agent. How agentic coding works, the tools, and where you still matter."
+date: "2026-07-20"
+tags: ["ai", "agentic", "coding", "tools", "developer"]
+image: "/blog/cover06.webp"
+---
+
+# Your Terminal as Co-Developer
+
+<MdxImage src="/blog/cover06.webp" alt="Cover" width={960} height={540} />
+
+_The way we write code has shifted. Again._
+
+<br />A year ago, AI meant autocomplete. You typed, it suggested the next line.
+You accepted or ignored.
+
+<br />
+That was useful. But it was still you doing most of the work.
+
+<br />
+Today, something changed.
+
+## From assistant to agent
+
+There's a difference between a tool that completes your sentences and one that understands your goal.
+
+<br />
+Agentic Coding is the second one.
+
+<br />
+You describe what you want to build. The agent reads your codebase, plans a
+series of actions, writes files, installs dependencies, runs commands, reads the
+error logs, and tries again.
+
+<br />
+You're not writing code anymore. You're directing.
+
+## The loop that changes everything
+
+Here's how an agent works, under the hood:
+
+<br />
+**Plan → Execute → Observe → Correct → Repeat**
+
+<br />
+That loop is what makes it different from a simple chatbot.
+
+<br />
+The agent doesn't just answer. It acts. And if the result isn't right, it
+adjusts on its own.
+
+<br />
+It's the difference between asking someone "how do I fix this?" and handing the
+problem to someone who figures it out and comes back with a solution.
+
+## What this looks like in practice
+
+I ran a live demo at a Galsen DEV meetup recently.
+
+<br />
+Empty folder. A README describing a simple API. Nothing else.
+
+<br />
+One prompt to the agent:
+
+> _"Read the README and build the project."_
+
+<br />
+Two minutes later: the server was running. Files created. Dependencies
+installed. Endpoints working.
+
+<br />
+Then I broke something on purpose. Changed a file. Introduced an error.
+
+<br />
+The agent read the logs, understood what went wrong, and fixed it.
+
+<br />
+No hand-holding. No step-by-step instructions.
+
+<br />
+That's the moment most people in the room went quiet.
+
+## The tools making this possible
+
+A few agents worth knowing:
+
+<br />
+**OpenCode** is open source, runs in the terminal, and works with Claude, GPT-4
+and Gemini. Great entry point if you want to see how this works without a paid
+IDE.
+
+<MdxCode
+  lang="bash"
+  code={`npm install -g opencode-ai
+opencode`}
+/>
+
+**Claude Code** is Anthropic's agent, also terminal-based. Particularly strong on large codebases and multi-file tasks.
+
+<MdxCode
+  lang="bash"
+  code={`npm install -g @anthropic-ai/claude-code
+claude`}
+/>
+
+**Cursor / Windsurf** take an IDE-first approach, if you prefer a visual interface around the agent.
+
+<br />
+All of them share the same core idea: the AI doesn't wait for you. It moves.
+
+## What the agent does well
+
+<MdxList
+  items={[
+    { label: "- scaffolding a project from scratch," },
+    { label: "- refactoring across multiple files," },
+    { label: "- writing tests," },
+    { label: "- debugging known error patterns," },
+    { label: "- reading and making sense of legacy code." },
+  ]}
+/>
+
+## What it still gets wrong
+
+<MdxList
+  items={[
+    { label: "- complex business logic that requires domain knowledge," },
+    {
+      label:
+        "- architecture decisions that need context you haven't written down,",
+    },
+    { label: "- long tasks where the context window runs out," },
+    { label: "- looping on the same error without knowing when to stop." },
+  ]}
+/>
+
+This is where you come in.
+
+<br />
+The agent is fast and tireless. You provide direction, judgment, and taste.
+
+## Your role changed, not disappeared
+
+Some people heard "the agent writes the code" and panicked.
+
+<br />
+That's the wrong read.
+
+<br />
+What actually shifted: the bottleneck moved.
+
+<br />
+Before, the bottleneck was writing code fast enough. Now, it's knowing what to
+build, how to structure it, and when to stop the agent from going sideways.
+
+<br />
+That's a higher-level skill. And it rewards developers who understand what
+they're building, not just how to type it.
+
+## A practical way to start
+
+Pick a small project. Something you already know how to build.
+
+<br />
+Write a clear README: what the project does, what tech to use, what endpoints or
+features it needs.
+
+<MdxCode
+  lang="bash"
+  code={`# Create your project folder
+mkdir my-project && cd my-project`}
+/>
+
+<MdxCode
+  lang="bash"
+  code={`# Add a README describing what you want to build
+echo "# My Project" > README.md`}
+/>
+
+Open OpenCode or Claude Code. Point it at the folder. Give it the README as context.
+
+<MdxCode
+  lang="bash"
+  code={`# With OpenCode
+opencode`}
+/>
+
+<MdxCode
+  lang="bash"
+  code={`# With Claude Code
+claude`}
+/>
+
+Then give it a clear prompt:
+
+<MdxCode code={`Read the README and build the project.`} />
+
+Watch what it does. Don't just accept it blindly. Read the code. Ask it to explain. Push back when something feels off.
+
+<br />
+That's the loop you want to build with your agent.
+
+## The bigger picture
+
+We're at the beginning of this.
+
+<br />
+The agents today are impressive. The ones in two years will be more capable,
+more reliable, and better at staying on track.
+
+<br />
+The developers who will thrive are those who learn to work with agents now, not
+those who wait until it's "stable."
+
+<br />
+Start now. Stay curious.
+
+<br />
+And if you want to explore this with a community, join us at
+<MdxLink href="https://links.galsen.dev" name="Galsen DEV" />. We're figuring it
+out together.
+
+<br />
+_This article is based on a talk I gave at Ndogou Coding 2026 in Thiès and a
+live demo session with the Galsen DEV community._
+
+<br />
+🎥 Watch the full recording on YouTube:
+<MdxLink
+  href="https://www.youtube.com/watch?v=JKOxYKv-0nE"
+  name="Agentic Coding | #LiveKoor2026"
+/>
+
+<MdxDivider />
+
+<MdxSubscribe />
